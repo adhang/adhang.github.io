@@ -71,14 +71,14 @@ Since the KNN algorithm uses distance measurements, feature scaling is mandatory
 
 <img class="img-modal-src" src="page-content/iris-hist.png?raw=true" alt="Iris - Histogram">
 
-I'm using **min-max scaler** (MinMaxScaler) for this project because the data distribution is not normal. And then, I use a **grid search** to find the best hyperparameters.
+I'm using **min-max scaler** (MinMaxScaler) for this project because the data distribution is not normal. And then, I use a **grid search** to find the best hyperparameter.
 
-<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix">
+<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix" width="50%" style="display:block;margin-left:auto; margin-right:auto;">
 
-After using a grid search, it says that ```k=6``` is the best parameter. I used it and got **100% accuracy!**
+After using the best hyperparameter, I got **100% accuracy!**
 
 ---
-### <a href="https://www.kaggle.com/adhang/diabetes-prediction-simple-logistic-regression" target="_blank">Diabetes Prediction</a>
+### <a href="https://www.kaggle.com/code/adhang/diabetes-prediction-simple-logistic-regression" target="_blank">Diabetes Prediction</a>
 ---
 
 Predicting whether a patient is likely to get a diabetes based on the glucose level using **Simple Logistic Regression**
