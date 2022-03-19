@@ -60,14 +60,18 @@ Predicting the house prices in Boston using **Univariate** and **Multivariate Li
 <img class="img-modal-src" src="page-content/boston-multivariate-linear-regression.png?raw=true" alt="Multivariate Linear Regression - Boston House Prices">
 
 ---
-### <a href="https://www.kaggle.com/code/adhang/boston-house-prices-linear-regression" target="_blank">Boston House Prices Prediction</a>
+### <a href="https://www.kaggle.com/code/adhang/iris-flower-classification-knn-100-accuracy" target="_blank">Iris Flower Classification</a>
 ---
 
 Iris flower classification based on the size of petal and sepal using **K-Nearest Neighbors (KNN)**
 
 <img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Distribution">
 
-Since the KNN algorithm is using distance measurement, feature scaling is mandatory. I use a min-max scaler (MinMaxScaler) for this project. Below is the confusion matrix using the default hyperparameter (number of neighbors, `k=5`).
+Since the KNN algorithm uses distance measurements, feature scaling is mandatory. I am using min-max scaler (MinMaxScaler) for this project. And then, I use a grid search to find the best hyperparameters.
+
+<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - KNN with hyperparameter from grid-serach">
+
+After using a grid search, it says that `k=6` is the best parameter. I used it and got **100% accuracy!**
 
 ---
 ---
