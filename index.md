@@ -57,7 +57,7 @@
 
 Predicting the house prices in Boston using **Univariate** and **Multivariate Linear Regression**
 
-<img class="img-modal-src" src="page-content/boston-multivariate-linear-regression.png?raw=true" alt="Multivariate Linear Regression - Boston House Prices">
+<img class="img-modal-src" src="page-content/boston-multivariate-linear-regression.png?raw=true" alt="Boston House Prices - Multivariate Linear Regression">
 
 ---
 ### <a href="https://www.kaggle.com/code/adhang/iris-flower-classification-knn-100-accuracy" target="_blank">Iris Flower Classification</a>
@@ -65,13 +65,19 @@ Predicting the house prices in Boston using **Univariate** and **Multivariate Li
 
 Iris flower classification based on the size of petal and sepal using **K-Nearest Neighbors (KNN)**
 
-<img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Distribution">
+<img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Data Distribution">
 
-Since the KNN algorithm uses distance measurements, feature scaling is mandatory. I am using min-max scaler (MinMaxScaler) for this project. And then, I use a grid search to find the best hyperparameters.
+Since the KNN algorithm uses distance measurements, feature scaling is mandatory. I am using **min-max scaler** (MinMaxScaler) for this project. And then, I use a **grid search** to find the best hyperparameters.
 
-<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - KNN with hyperparameter from grid-serach">
+<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix">
 
-After using a grid search, it says that `k=6` is the best parameter. I used it and got **100% accuracy!**
+After using a grid search, it says that ```k=6``` is the best parameter. I used it and got **100% accuracy!**
+
+---
+### <a href="https://www.kaggle.com/adhang/diabetes-prediction-simple-logistic-regression" target="_blank">Diabetes Prediction</a>
+---
+
+Predicting whether a patient is likely to get a diabetes based on the glucose level using **Simple Logistic Regression**
 
 ---
 ---
