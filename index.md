@@ -67,13 +67,13 @@ Iris flower classification based on the size of petal and sepal using **K-Neares
 
 <img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Data Distribution">
 
-Since the KNN algorithm uses distance measurements, feature scaling is mandatory.
+Since the KNN algorithm uses distance measurements, **feature scaling** is mandatory.
 
 <img class="img-modal-src" src="page-content/iris-hist.png?raw=true" alt="Iris - Histogram">
 
 I'm using **min-max scaler** (MinMaxScaler) for this project because the data distribution is not normal. And then, I use a **grid search** to find the best hyperparameter.
 
-<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix" width="50%" style="display:block;margin-left:auto; margin-right:auto;">
+<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix" width="70%" style="display:block;margin-left:auto; margin-right:auto;">
 
 After using the best hyperparameter, I got **100% accuracy!**
 
@@ -87,8 +87,14 @@ Predicting whether a patient is likely to get a diabetes based on the glucose le
 
 ---
 ---
-<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-<p><small>Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></small></p>
-<p><small>Umbrella icons created by <a href="https://www.flaticon.com/free-icons/umbrella" title="umbrella icons">photo3idea_studio &mdash; Flaticon</a></small></p>
-<p><small>Github readme stats created by <a href="https://github.com/anuraghazra/github-readme-stats">anuraghazra</a></small></p>
-<!-- Remove above link if you don't want to attibute -->
+<p>
+  <small>
+    Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+    <br>
+    Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a>
+    <br>
+    Umbrella icons created by <a href="https://www.flaticon.com/free-icons/umbrella" title="umbrella icons">photo3idea_studio &mdash; Flaticon</a>
+    <br>
+    Github readme stats created by <a href="https://github.com/anuraghazra/github-readme-stats">anuraghazra</a>
+  </small>
+</p>
