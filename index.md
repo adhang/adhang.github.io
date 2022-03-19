@@ -1,35 +1,100 @@
-## Portfolio
+# Portfolio
 
 ---
-
-### Category Name 1 
-
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
+## GitHub
 ---
 
-### Category Name 2
+[![Adhang's GitHub stats](https://github-readme-stats.vercel.app/api?username=adhang&show_icons=true&hide=issues,contribs&theme=vue-dark)](https://github.com/adhang)
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+[![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&theme=vue-dark)](https://github.com/adhang)
 
 ---
+### Data Science Bootcamp - Digital Skola
+---
 
+**Contents**
+- Learning summary (in Bahasa Indonesia)
+- SQL (PostgreSQL)
+- Python basic programming
+- Numpy array and Pandas dataframe
+- Database programming (psycopg2)
+- Application Programming Interface (API)
+- Statistics (descriptive and inferential statistics)
+- Data Visualization
+- Data Preprocessing
+- Machine Learning
 
+**Final Project**
+- Telco customer churn prediction
+- Status: ongoing
 
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&theme=vue-dark)](https://github.com/adhang/data-science-digital-skola)
 
 ---
-<p style="font-size:11px">Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a></p>
-<!-- Remove above link if you don't want to attibute -->
+### Learn Data Science
+---
+
+**Contents**
+- Basic EDA
+  - Credit card customer dataset
+  - Stroke prediction dataset
+- Classification
+  - Iris flower - KNN
+  - Diabetes prediction - logistic regression
+  - Stroke prediction - logistic regression
+- Regression
+  - Boston house prices prediction - linear regression
+- Misc
+  - Scraping tables from clean PDF
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&theme=vue-dark)](https://github.com/adhang/learn-data-science)
+
+---
+## Kaggle
+---
+### <a href="https://www.kaggle.com/code/adhang/boston-house-prices-linear-regression" target="_blank">Boston House Prices Prediction</a>
+---
+
+Predicting the house prices in Boston using **Univariate** and **Multivariate Linear Regression**
+
+<img class="img-modal-src" src="page-content/boston-multivariate-linear-regression.png?raw=true" alt="Boston House Prices - Multivariate Linear Regression">
+
+---
+### <a href="https://www.kaggle.com/code/adhang/iris-flower-classification-knn-100-accuracy" target="_blank">Iris Flower Classification</a>
+---
+
+Iris flower classification based on the size of petal and sepal using **K-Nearest Neighbors (KNN)**
+
+<img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Data Distribution">
+
+Since the KNN algorithm uses distance measurements, **feature scaling** is mandatory.
+
+<img class="img-modal-src" src="page-content/iris-hist.png?raw=true" alt="Iris - Histogram">
+
+I'm using **min-max scaler** (MinMaxScaler) for this project because the data distribution is not normal. And then, I use a **grid search** to find the best hyperparameter.
+
+<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix" width="70%" style="display:block;margin-left:auto; margin-right:auto;">
+
+After using the best hyperparameter, I got **100% accuracy!**
+
+---
+### <a href="https://www.kaggle.com/code/adhang/diabetes-prediction-simple-logistic-regression" target="_blank">Diabetes Prediction</a>
+---
+
+Predicting whether a patient is likely to get a diabetes based on the glucose level using **Simple Logistic Regression**
+
+<img class="img-modal-src" src="page-content/diabetes-logistic-function.png?raw=true" alt="Diabetes - Logistic Function">
+
+---
+---
+<p>
+  <small>
+    Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
+    <br>
+    Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a>
+    <br>
+    Umbrella icons created by <a href="https://www.flaticon.com/free-icons/umbrella" title="umbrella icons">photo3idea_studio &mdash; Flaticon</a>
+    <br>
+    Github readme stats created by <a href="https://github.com/anuraghazra/github-readme-stats">anuraghazra</a>
+  </small>
+</p>
