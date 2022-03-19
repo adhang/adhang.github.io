@@ -4,15 +4,13 @@
 
 ## GitHub
 
-[![Adhang's GitHub stats](https://github-readme-stats.vercel.app/api?username=adhang&show_icons=true&hide=issues,contribs&theme=react)](https://github.com/adhang)
+[![Adhang's GitHub stats](https://github-readme-stats.vercel.app/api?username=adhang&show_icons=true&hide=issues,contribs&theme=vue-dark)](https://github.com/adhang)
 
-[![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&theme=react)](https://github.com/adhang)
+[![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&theme=vue-dark)](https://github.com/adhang)
 
 ---
 
 ### Data Science Bootcamp - Digital Skola
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&theme=react)](https://github.com/adhang/data-science-digital-skola)
 
 **Contents**
 - Learning summary (in Bahasa Indonesia)
@@ -30,11 +28,11 @@
 - Telco customer churn prediction
 - Status: ongoing
 
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&theme=vue-dark)](https://github.com/adhang/data-science-digital-skola)
+
 ---
 
 ### Learn Data Science
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&theme=react)](https://github.com/adhang/learn-data-science)
 
 **Contents**
 - Basic EDA
@@ -48,6 +46,8 @@
   - Boston house prices prediction - linear regression
 - Misc
   - Scraping tables from clean PDF
+
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&theme=vue-dark)](https://github.com/adhang/learn-data-science)
 
 ---
 
