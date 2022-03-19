@@ -10,17 +10,44 @@
 
 ---
 
-### [Data Science Bootcamp - Digital Skola](/pages/data-science-digital-skola)
-This is my documentation during the Data Science bootcamp from Digital Skola. This repo will be updated regularly, at least once a week. Hopefully, everything that I have learned can be well documented.
+### Data Science Bootcamp - Digital Skola
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&theme=react)](https://github.com/adhang/data-science-digital-skola)
 
+**Contents**
+- Learning summary (in Bahasa Indonesia)
+- SQL (PostgreSQL)
+- Python basic programming
+- Numpy array and Pandas dataframe
+- Database programming (psycopg2)
+- Application Programming Interface (API)
+- Statistics (descriptive and inferential statistics)
+- Data Visualization
+- Data Preprocessing
+- Machine Learning
+
+**Final Project**
+- Telco customer churn prediction
+- Status: ongoing
+
 ---
 
-### [Learn Data Science](/pages/learn-data-science)
-This is my documentation on learning data science. It contains some of my projects that were used to hone my knowledge and skill in data science and machine learning.
+### Learn Data Science
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&theme=react)](https://github.com/adhang/learn-data-science)
+
+**Contents**
+- Basic EDA
+  - Credit card customer dataset
+  - Stroke prediction dataset
+- Classification
+  - Iris flower - KNN
+  - Diabetes prediction - logistic regression
+  - Stroke prediction - logistic regression
+- Regression
+  - Boston house prices prediction - linear regression
+- Misc
+  - Scraping tables from clean PDF
 
 ---
 
