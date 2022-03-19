@@ -52,14 +52,22 @@
 ---
 ## Kaggle
 ---
-
----
 ### <a href="https://www.kaggle.com/code/adhang/boston-house-prices-linear-regression" target="_blank">Boston House Prices Prediction</a>
 ---
 
 Predicting the house prices in Boston using **Univariate** and **Multivariate Linear Regression**
 
 <img class="img-modal-src" src="page-content/boston-multivariate-linear-regression.png?raw=true" alt="Multivariate Linear Regression - Boston House Prices">
+
+---
+### <a href="https://www.kaggle.com/code/adhang/boston-house-prices-linear-regression" target="_blank">Boston House Prices Prediction</a>
+---
+
+Iris flower classification based on the size of petal and sepal using **K-Nearest Neighbors (KNN)**
+
+<img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Distribution">
+
+Since the KNN algorithm is using distance measurement, feature scaling is mandatory. I use a min-max scaler (MinMaxScaler) for this project. Below is the confusion matrix using the default hyperparameter (number of neighbors, `k=5`).
 
 ---
 ---
