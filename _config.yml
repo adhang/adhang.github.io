@@ -1,11 +1,9 @@
 title: Adhang Muntaha # your name (or website title) here
 logo: "/images/logo-avatar.png?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  First description 
+  <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30px"> Welcome to my GitHub Page!
   <br><br>
-  Second description 
-  <br><br>
-  <a href="https://www.linkedin.com/in/example/">View My LinkedIn Profile</a> 
+  This is my portfolio on data science and machine learning. It contains some of my projects which I used to hone my knowledge and skills.
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
