@@ -67,7 +67,11 @@ Iris flower classification based on the size of petal and sepal using **K-Neares
 
 <img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Data Distribution">
 
-Since the KNN algorithm uses distance measurements, feature scaling is mandatory. I am using **min-max scaler** (MinMaxScaler) for this project. And then, I use a **grid search** to find the best hyperparameters.
+Since the KNN algorithm uses distance measurements, feature scaling is mandatory.
+
+<img class="img-modal-src" src="page-content/iris-hist.png?raw=true" alt="Iris - Histogram">
+
+I'm using **min-max scaler** (MinMaxScaler) for this project because the data distribution is not normal. And then, I use a **grid search** to find the best hyperparameters.
 
 <img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix">
 
@@ -78,6 +82,8 @@ After using a grid search, it says that ```k=6``` is the best parameter. I used 
 ---
 
 Predicting whether a patient is likely to get a diabetes based on the glucose level using **Simple Logistic Regression**
+
+<img class="img-modal-src" src="page-content/diabetes-logistic-function.png?raw=true" alt="Diabetes - Logistic Function">
 
 ---
 ---
