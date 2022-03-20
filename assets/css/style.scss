@@ -25,6 +25,12 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
+h1, h2 {
+  background-color: #3A4556;
+  border-radius: 0px 15px 0px 0px;
+  padding: 10px;
+}
+
 header{
   border-radius: 15px 0px 0px 15px;
 //   border: 2px solid #FFFFFF;
@@ -35,6 +41,6 @@ header{
 section{
   border-radius: 0px 15px 15px 0px;
 //   border: 2px solid #809fff;
-  background: #3A4556;
+  background: #2D3848;
   padding: 10px;
 }
