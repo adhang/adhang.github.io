@@ -4,9 +4,19 @@
 @import "{{ site.theme }}";
 
 body{
-  background-color:#000000;
+  background-color:#121212;
 }
 
 header{
-  padding-right:200px;
+  border-radius: 25px;
+  border: 2px solid #809fff;
+  background: #121212;
+  padding: 20px;
+}
+
+section{
+  border-radius: 25px;
+  border: 2px solid #809fff;
+  background: #121212;
+  padding: 20px;
 }
