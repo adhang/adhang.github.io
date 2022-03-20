@@ -61,21 +61,22 @@
   <body onload="initializeViz();">
     <div class="wrapper">
       
-      <header class="rounded-corners">
-        <h1 style="text-align:center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" width="80%" style="display:block;margin-left:auto; margin-right:auto;"/>
-        {% endif %}
+      <header>
+        <div  class="rounded-corners">
+          <h1 style="text-align:center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
-        <p style="text-align:center">{{ site.description | default: site.github.project_tagline }}</p>
+          {% if site.logo %}
+            <img src="{{site.logo | relative_url}}" alt="Logo" width="80%" style="display:block;margin-left:auto; margin-right:auto;"/>
+          {% endif %}
 
+          <p style="text-align:center">{{ site.description | default: site.github.project_tagline }}</p>
+        </div>
       </header>
       
-      <section class="rounded-corners">
-
-      {{ content }}
-
+      <section>
+        <div  class="rounded-corners">
+          {{ content }}
+        </div>
       </section>
       
       <footer>
