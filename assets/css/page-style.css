@@ -1,0 +1,10 @@
+/* header background & text color */
+header{
+  background-color: #121212;
+  color: #eee;
+}
+
+/* header link color*/
+header a{
+  color: #809fff;
+}
