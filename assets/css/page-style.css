@@ -1,18 +1,3 @@
-/* header background & text color */
-/* .wrapper{
-  background-color: #121212;
-  color: #eee;
-} */
-
-/* header link color*/
-/* .wrapper a{
-  color: #809fff;
-} */
-
-body{
-  background-color:#000000;
-}
-
 .rounded-corners {
   border-radius: 25px;
   border: 2px solid #809fff;
