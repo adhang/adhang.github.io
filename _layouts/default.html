@@ -60,7 +60,8 @@
   </head>
   <body onload="initializeViz();">
     <div class="wrapper">
-      <header>
+      
+      <header class="rounded-corners">
         <h1 style="text-align:center"><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
         
         {% if site.logo %}
@@ -70,13 +71,16 @@
         <p style="text-align:center">{{ site.description | default: site.github.project_tagline }}</p>
 
       </header>
-      <section>
+      
+      <section class="rounded-corners">
 
       {{ content }}
 
       </section>
+      
       <footer>
       </footer>
+      
     </div>
     
     <!-- BODY SCRIPT SECTION -->
