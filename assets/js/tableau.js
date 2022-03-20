@@ -10,8 +10,8 @@ function initializeViz() {
     // width: 400,
     // height: "auto",
     // device:"desktop",
-    hideTabs: true,
-    // hideToolbar: true,
+    // hideTabs: true,
+    hideToolbar: true,
   };
   viz = new tableau.Viz(placeholderDiv, url, options);
 }
