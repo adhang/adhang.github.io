@@ -39,11 +39,13 @@
   - Credit card customer dataset
   - Stroke prediction dataset
 - Classification
-  - Iris flower - KNN
-  - Diabetes prediction - logistic regression
-  - Stroke prediction - logistic regression
+  - K-Nearest Neighbors
+    - Iris Flower
+  - Logistic Regression
+    - Diabetes Prediction
+    - Stroke Prediction
 - Regression
-  - Boston house prices prediction - linear regression
+  - Linear Regression - Boston House Prices Prediction
 - Misc
   - Scraping tables from clean PDF
 
@@ -95,7 +97,7 @@ I made a dashboard to show the spread of COVID-19 in Indonesia from March 2020 t
 <img class="img-modal-src" src="page-content/dashboard-covid19-indonesia.png?raw=true" alt="Indonesia COVID-19 Dashboard">
 
 **Interactive Version**<br>
-Change to the desktop layout and full-screen mode for a better experience. The settings are on the bottom right.
+For a better experience, change it to a desktop layout and full-screen mode. The settings are on the bottom right.
 <div id="tableauViz" style="max-width:100%; max-height:400px; overflow:auto;"></div>
 <button onclick="exportToPDF();">Export to PDF</button>
 
