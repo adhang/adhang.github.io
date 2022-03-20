@@ -39,11 +39,13 @@
   - Credit card customer dataset
   - Stroke prediction dataset
 - Classification
-  - Iris flower - KNN
-  - Diabetes prediction - logistic regression
-  - Stroke prediction - logistic regression
+  - K-Nearest Neighbors
+    - Iris Flower
+  - Logistic Regression
+    - Diabetes Prediction
+    - Stroke Prediction
 - Regression
-  - Boston house prices prediction - linear regression
+  - Linear Regression - Boston House Prices Prediction
 - Misc
   - Scraping tables from clean PDF
 
@@ -84,6 +86,20 @@ After using the best hyperparameter, I got **100% accuracy!**
 Predicting whether a patient is likely to get a diabetes based on the glucose level using **Simple Logistic Regression**
 
 <img class="img-modal-src" src="page-content/diabetes-logistic-function.png?raw=true" alt="Diabetes - Logistic Function">
+
+---
+## Tableau
+---
+
+### <a href="https://public.tableau.com/app/profile/adhang/viz/IndonesiaCOVID-19/Dashboard" target="_blank">Indonesia COVID-19 Dashboard</a>
+I made a dashboard to show the spread of COVID-19 in Indonesia from March 2020 to January 2022.
+
+<img class="img-modal-src" src="page-content/dashboard-covid19-indonesia.png?raw=true" alt="Indonesia COVID-19 Dashboard">
+
+**Interactive Version**<br>
+For a better experience, change it to a desktop layout and full-screen mode. The settings are on the bottom right.
+<div id="tableauViz" style="max-width:100%; max-height:400px; overflow:auto;"></div>
+<button onclick="exportToPDF();">Export to PDF</button>
 
 ---
 <!-- The Modal -->
