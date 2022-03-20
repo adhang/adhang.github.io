@@ -28,6 +28,6 @@ description: > # your text below (remove <br> elements if you don't need line br
     <img src="https://img.shields.io/badge/tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white&link=https://public.tableau.com/app/profile/adhang" alt="Tableau">
   </div>
   
-# theme: jekyll-theme-minimal
-remote_theme: "godalming123/minimal"
+theme: jekyll-theme-minimal
+# remote_theme: "godalming123/minimal"
 google_analytics: G-KY0E3ESDBQ # your Google Analytics tracking ID here
