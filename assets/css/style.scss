@@ -4,19 +4,24 @@
 @import "{{ site.theme }}";
 
 body{
-  background-color:#121212;
+  background-color: #1A202C;
+  color: #FFFFFF;
+}
+
+body a{
+  color: #99E5B3;
 }
 
 header{
-  border-radius: 25px;
-  border: 2px solid #FFFFFF;
-  background: #273849;
-  padding: 20px;
+  border-radius: 15px 0px 0px 15px;
+//   border: 2px solid #FFFFFF;
+  background: #2D3848;
+  padding: 10px;
 }
 
-// section{
-//   border-radius: 25px;
+section{
+  border-radius: 0px 15px 15px 0px;
 //   border: 2px solid #809fff;
-//   background: #121212;
-//   padding: 20px;
-// }
+  background: #3A4556;
+  padding: 10px;
+}
