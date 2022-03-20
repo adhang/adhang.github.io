@@ -8,8 +8,21 @@ body{
   color: #FFFFFF;
 }
 
-body a{
+// link color
+a{
   color: #99E5B3;
+}
+
+// link hover
+a:hover, a:focus {
+  color:#FFFFFF;
+  font-weight: bold;
+}
+
+// header color
+h1, h2, h3, h4, h5, h6 {
+  color:#99E5B3;
+  margin:0 0 20px;
 }
 
 header{
