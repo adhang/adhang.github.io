@@ -11,7 +11,7 @@ function initializeViz() {
     // height: "auto",
     // device:"desktop",
     hideTabs: true,
-    hideToolbar: true,
+    // hideToolbar: true,
   };
   viz = new tableau.Viz(placeholderDiv, url, options);
 }
