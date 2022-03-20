@@ -86,6 +86,18 @@ Predicting whether a patient is likely to get a diabetes based on the glucose le
 <img class="img-modal-src" src="page-content/diabetes-logistic-function.png?raw=true" alt="Diabetes - Logistic Function">
 
 ---
+<!-- The Modal -->
+<div id="modal-container" class="modal">
+
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
+
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img-modal">
+
+  <!-- Modal Caption (Image Text) -->
+  <div id="caption"></div>
+</div>
 ---
 <p>
   <small>
