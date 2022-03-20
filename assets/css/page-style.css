@@ -1,11 +1,11 @@
 /* header background & text color */
-body{
+.wrapper{
   background-color: #121212;
   color: #eee;
 }
 
 /* header link color*/
-body a{
+.wrapper a{
   color: #809fff;
 }
 
