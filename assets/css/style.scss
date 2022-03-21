@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+:root {
+  // color reference: https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa
+  dark-1: #1B262C;
+  dark-2: #0F4C75;
+  dark-3: #3282B8;
+  dark-4: #BBE1FA;
+}
+
 body{
   background-color: #1A202C;
   color: #FFFFFF;
