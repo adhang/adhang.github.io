@@ -41,7 +41,7 @@ body {
 
 // link color
 a {
-  color: var(--extendedGreen300);
+  color: var(--extendedGreen100);
 }
 
 // link hover
@@ -52,19 +52,22 @@ a:hover, a:focus {
 
 // header color
 h1, h2, h3, h4, h5, h6 {
-  color: var(--extendedGreen300);
+  color: var(--extendedGreen100);
   margin:0 0 20px;
 }
 
+// bold text
+strong{
+  color: var(--extendedGreen200);
+}
+
+// h2 h3 background color
 h2, h3 {
   background-color: var(--color700);
   padding: 10px;
 }
 
-strong{
-  color: var(--extendedGreen100);
-}
-
+// header, left-area (description)
 header{
   border-radius: 15px 0px 0px 15px;
 //   border: 2px solid #FFFFFF;
@@ -72,6 +75,7 @@ header{
   padding: 10px;
 }
 
+// section, right-area (content)
 section{
   border-radius: 0px 15px 15px 0px;
 //   border: 2px solid #809fff;
