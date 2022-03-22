@@ -8,25 +8,25 @@
   // cool grey
   // 50-400: text have to be dark
   // 600-900: text have to be light
-  --color900: #1F2933; // darkest
+  --color900: #1F2933;          // darkest
   --color800: #323F4B;
   --color700: #3E4C59;
   --color600: #52606D;
-  --color500: #616E7C; // center
+  --color500: #616E7C;          // center
   --color400: #7B8794;
   --color300: #9AA5B1;
   --color200: #CBD2D9;
   --color100: #E4E7EB;
-  --color50: #F5F7FA; // lightest
+  --color50: #F5F7FA;           // lightest
   
-  --secondaryBlue: #00A8CC; // baby blue. secondary color?
+  --secondaryBlue: #00A8CC;     // baby blue. secondary color?
   --extendedBlue500: #00A3BF;
   --extendedBlue400: #00B8D9;
   --extendedBlue300: #00C7E6;
   --extendedBlue200: #79E2F2;
   --extendedBlue100: #B3F5FF;
   
-  --secondaryGreen: #028FA3; // sea green, secondary color
+  --secondaryGreen: #028FA3;    // sea green, secondary color
   --extendedGreen500: #006644;
   --extendedGreen400: #00875A;
   --extendedGreen300: #36B27E;
@@ -61,21 +61,21 @@ strong{
   color: var(--extendedGreen200);
 }
 
-// h3 background color (darker than h2)
 h3 {
-  background-color: var(--color700);
+  border-radius: 5px;                 // curved edge (all)
+  background-color: var(--color700);  // darker than h2
   padding: 10px;
 }
 
-// h2 background color (lighter than h3)
 h2 {
-  background-color: var(--color600);
+  border-radius: 5px;                 // curved edge (all)
+  background-color: var(--color600);  // lighter than h3
   padding: 10px;
 }
 
 // header, left-area (description)
 header{
-  border-radius: 15px 0px 0px 15px;
+  border-radius: 15px;                // curved edge (all)
 //   border: 2px solid #FFFFFF;
   background: var(--color800);
   padding: 10px;
