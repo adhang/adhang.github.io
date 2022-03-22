@@ -4,9 +4,9 @@
 ## GitHub
 ---
 
-[![Adhang's GitHub stats](https://github-readme-stats.vercel.app/api?username=adhang&show_icons=true&hide=issues,contribs&title_color=0F4C75&icon_color=0F4C75&text_color=1B262C&bg_color=FFFEFE)](https://github.com/adhang)
+[![Adhang's GitHub stats](https://github-readme-stats.vercel.app/api?username=adhang&show_icons=true&hide=issues,contribs&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang)
 
-[![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&title_color=0F4C75&icon_color=0F4C75&text_color=1B262C&bg_color=FFFEFE)](https://github.com/adhang)
+[![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang)
 
 ---
 ### Data Science Bootcamp - Digital Skola
@@ -28,7 +28,7 @@
 - Telco customer churn prediction
 - Status: ongoing
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&title_color=0F4C75&icon_color=0F4C75&text_color=1B262C&bg_color=FFFEFE)](https://github.com/adhang/data-science-digital-skola)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/data-science-digital-skola)
 
 ---
 ### Learn Data Science
@@ -49,7 +49,7 @@
 - Misc
   - Scraping tables from clean PDF
 
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&title_color=0F4C75&icon_color=0F4C75&text_color=1B262C&bg_color=FFFEFE)](https://github.com/adhang/learn-data-science)
+[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/learn-data-science)
 
 ---
 ## Kaggle
