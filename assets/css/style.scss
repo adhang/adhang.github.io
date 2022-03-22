@@ -5,53 +5,54 @@
 
 :root {
   // color reference: https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa
-  dark-1: #1B262C;
-  dark-2: #0F4C75;
-  dark-3: #3282B8;
-  dark-4: #BBE1FA;
+  blueDeep: #1B262C; // blue deep
+  blueDark: #0F4C75; // blue dark
+  blueMedium: #3282B8; // blue medium
+  blueLight: #BBE1FA; // blue light
+  white: #FFFEFE; // white
 }
 
 body{
-  background-color: #1A202C;
-  color: #FFFFFF;
+  background-color: var(--blueDeep);
+  color: var(--white);
 }
 
 // link color
 a{
-  color: #99E5B3;
+  color: var(--blueMedium);
 }
 
 // link hover
 a:hover, a:focus {
-  color:#FFFFFF;
+  color: var(--blueLight);
   font-weight: bold;
 }
 
 // header color
 h1, h2, h3, h4, h5, h6 {
-  color:#99E5B3;
+  color: var(--blueMedium);
   margin:0 0 20px;
 }
 
 h2, h3 {
-  background-color: #3A4556;
+  background-color: rgba(255,254,254,0.5);
   padding: 10px;
 }
 
 strong{
-  color:#FFFFFF;
+  color: var(--white);
 }
 
 header{
   border-radius: 15px 0px 0px 15px;
 //   border: 2px solid #FFFFFF;
-  background: #2D3848;
+  background: var(--blueDark);
   padding: 10px;
 }
 
 section{
   border-radius: 0px 15px 15px 0px;
 //   border: 2px solid #809fff;
-  background: #2D3848;
+  background: var(--blueDark);
   padding: 10px;
 }
