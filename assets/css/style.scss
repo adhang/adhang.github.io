@@ -4,55 +4,77 @@
 @import "{{ site.theme }}";
 
 :root {
-  // color reference: https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa
-  --blueDeep: #1B262C; // blue deep
-  --blueDark: #0F4C75; // blue dark
-  --blueMedium: #3282B8; // blue medium
-  --blueLight: #BBE1FA; // blue light
-  --white: #FFFEFE; // white
+  // color reference: https://uxdesign.cc/dark-mode-ui-design-the-definitive-guide-part-1-color-53dcfaea5129
+  // cool grey
+  // 50-400: text have to be dark
+  // 600-900: text have to be light
+  --color900: #1F2933; // darkest
+  --color800: #323F4B;
+  --color700: #3E4C59;
+  --color600: #52606D;
+  --color500: #616E7C; // center
+  --color400: #7B8794;
+  --color300: #9AA5B1;
+  --color200: #CBD2D9;
+  --color100: #E4E7EB;
+  --color50: #F5F7FA; // lightest
+  
+  --secondaryBlue: #00A8CC; // baby blue. secondary color?
+  --extendedBlue500: #00A3BF;
+  --extendedBlue400: #00B8D9;
+  --extendedBlue300: #00C7E6;
+  --extendedBlue200: #79E2F2;
+  --extendedBlue100: #B3F5FF;
+  
+  --secondaryGreen: #028FA3; // sea green, secondary color
+  --extendedGreen500: #006644;
+  --extendedGreen400: #00875A;
+  --extendedGreen300: #36B27E;
+  --extendedGreen200: #57D9A3;
+  --extendedGreen100: #ABF5D1;
 }
 
-body{
-  background-color: var(--blueDeep);
-  color: var(--white);
+body {
+  background-color: var(--color900);
+  color: var(--color50);
 }
 
 // link color
-a{
-  color: var(--blueMedium);
+a {
+  color: var(--secondaryGreen);
 }
 
 // link hover
 a:hover, a:focus {
-  color: var(--blueLight);
+  color: var(--extendedGreen300);
   font-weight: bold;
 }
 
 // header color
 h1, h2, h3, h4, h5, h6 {
-  color: var(--blueMedium);
+  color: var(--secondaryGreen);
   margin:0 0 20px;
 }
 
 h2, h3 {
-  background-color: rgba(255,254,254,0.5);
+  background-color: var(--color700);
   padding: 10px;
 }
 
 strong{
-  color: var(--white);
+  color: var(--extendedGreen100);
 }
 
 header{
   border-radius: 15px 0px 0px 15px;
 //   border: 2px solid #FFFFFF;
-  background: var(--blueDark);
+  background: var(--color800);
   padding: 10px;
 }
 
 section{
   border-radius: 0px 15px 15px 0px;
 //   border: 2px solid #809fff;
-  background: var(--blueDark);
+  background: var(--color800);
   padding: 10px;
 }
