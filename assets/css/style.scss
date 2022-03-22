@@ -120,13 +120,14 @@ section{
 
   header {
     padding: 10px;
+    margin: 0 auto;
   }
 
   section {
-    // border:1px solid #e5e5e5;
-    // border-width:1px 0;
+    border: none;
+    border-width: none;
     padding:20px 0;
-    margin:0 0 20px;
+    margin:10px auto 20px;
   }
 
   header a small {
