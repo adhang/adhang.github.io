@@ -5,11 +5,11 @@
 
 :root {
   // color reference: https://colorhunt.co/palette/1b262c0f4c753282b8bbe1fa
-  blueDeep: #1B262C; // blue deep
-  blueDark: #0F4C75; // blue dark
-  blueMedium: #3282B8; // blue medium
-  blueLight: #BBE1FA; // blue light
-  white: #FFFEFE; // white
+  --blueDeep: #1B262C; // blue deep
+  --blueDark: #0F4C75; // blue dark
+  --blueMedium: #3282B8; // blue medium
+  --blueLight: #BBE1FA; // blue light
+  --white: #FFFEFE; // white
 }
 
 body{
