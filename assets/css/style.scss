@@ -41,18 +41,18 @@ body {
 
 // link color
 a {
-  color: var(--extendedGreen100);
+  color: var(--extendedGreen200);
 }
 
 // link hover
 a:hover, a:focus {
-  color: var(--extendedGreen200);
+  color: var(--extendedGreen300);
   font-weight: bold;
 }
 
 // header color
 h1, h2, h3, h4, h5, h6 {
-  color: var(--extendedGreen100);
+  color: var(--extendedGreen200);
   margin:0 0 20px;
 }
 
