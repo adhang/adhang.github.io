@@ -61,9 +61,15 @@ strong{
   color: var(--extendedGreen200);
 }
 
-// h2 h3 background color
-h2, h3 {
+// h3 background color (darker than h2)
+h3 {
   background-color: var(--color700);
+  padding: 10px;
+}
+
+// h2 background color (lighter than h3)
+h2 {
+  background-color: var(--color600);
   padding: 10px;
 }
 
