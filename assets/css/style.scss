@@ -111,6 +111,7 @@ pre {
 // body wrapper
 .wrapper {
   width: 100%;
+  max-width: 1366px; // my screen is still 1366 x 768
   margin: 0 auto;
 }
 
@@ -139,8 +140,7 @@ section {
   
   // width: 75%;
   // max-width: 800px;
-  width: auto;  
-  margin-left: 50px;
+  width: 760px;
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
