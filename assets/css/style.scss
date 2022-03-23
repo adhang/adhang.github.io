@@ -139,7 +139,8 @@ section {
   
   // width: 75%;
   // max-width: 800px;
-  width: 760px;  
+  width: auto;  
+  margin-left: 50px;
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
