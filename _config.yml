@@ -29,4 +29,5 @@ description: > # your text below (remove <br> elements if you don't need line br
   </div>
   
 theme: jekyll-theme-minimal
+# remote_theme: "godalming123/minimal"
 google_analytics: G-KY0E3ESDBQ # your Google Analytics tracking ID here
