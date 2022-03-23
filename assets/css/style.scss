@@ -38,7 +38,7 @@ body {
   background-color: var(--color900);
   color: var(--color50);
   
-  padding: 20px;
+  padding: 50px;
 }
 
 // link color
@@ -77,7 +77,7 @@ h2 {
 
 // body wrapper
 .wrapper {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -86,7 +86,7 @@ header{
   border-radius: 15px;                // curved edge (all)
 //   border: 2px solid #FFFFFF;
   background: var(--color800);
-  padding: 10px;
+  padding: 20px;
   
   width: 25%;
   float: left;
@@ -95,20 +95,21 @@ header{
 }
 
 // section, right-area (content)
-section{
+section {
   border-radius: 15px;
 //   border: 2px solid #809fff;
   background: var(--color800);
   
+  padding: 20px;
   width: 65%;
   float: right;
-  padding: 10px;
+  
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
 
   div.wrapper {
-    width:95%;
+    width:100%;
     margin:0 auto;
   }
 
@@ -126,8 +127,8 @@ section{
   section {
     border: none;
     border-width: none;
-    padding:20px 0;
-    margin:10px auto 20px;
+    padding: 10px;
+    margin: 10px auto 20px;
   }
 
   header a small {
