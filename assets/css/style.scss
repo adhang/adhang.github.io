@@ -119,12 +119,14 @@ header{
   border-radius: 15px;                // curved edge (all)
 //   border: 2px solid #FFFFFF;
   background: var(--color800);
-  padding: 20px;
   
-  width: 25%;
-  max-width: 300px;
   float: left;
   position: fixed;
+  padding: 20px;
+  
+  // width: 25%;
+  // max-width: 300px;
+  width: 300px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -134,12 +136,12 @@ section {
 //   border: 2px solid #809fff;
   background: var(--color800);
   
-  margin-left: 20px;
-  padding: 20px;
-  width: 75%;
-  max-width: 800px;
   float: right;
+  padding: 20px;
   
+  // width: 75%;
+  // max-width: 800px;
+  width: 800px;  
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
