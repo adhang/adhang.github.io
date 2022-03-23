@@ -117,7 +117,6 @@ pre {
 // header, left-area (description)
 header{
   border-radius: 15px;                // curved edge (all)
-//   border: 2px solid #FFFFFF;
   background: var(--color800);
   
   float: left;
@@ -126,14 +125,13 @@ header{
   
   // width: 25%;
   // max-width: 300px;
-  width: 300px;
+  width: 260px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
 // section, right-area (content)
 section {
   border-radius: 15px;
-//   border: 2px solid #809fff;
   background: var(--color800);
   
   float: right;
@@ -141,7 +139,7 @@ section {
   
   // width: 75%;
   // max-width: 800px;
-  width: 800px;  
+  width: 760px;  
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
