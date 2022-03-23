@@ -55,7 +55,7 @@ a:hover, a:focus {
   font-weight: bold;
 }
 
-// header color
+// headings color
 h1, h2, h3, h4, h5, h6 {
   color: var(--extendedGreen200);
   margin:0 0 10px;
@@ -148,6 +148,7 @@ section {
   body {
     padding: 20px;
   }
+  
   div.wrapper {
     width:100%;
     margin:0 auto;
@@ -189,7 +190,7 @@ section {
   }
 
   header {
-    padding:0;
+    padding:10px;
   }
 
   header ul, header p.view {
@@ -204,14 +205,6 @@ section {
 @media print, screen and (max-width: 480px) {
   body {
     padding:15px;
-  }
-
-  .downloads {
-    width:99%;
-  }
-
-  .downloads li, .downloads li + li + li {
-    width:33%;
   }
 }
 
