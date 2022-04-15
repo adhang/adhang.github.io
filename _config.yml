@@ -10,6 +10,7 @@ description: > # your text below (remove <br> elements if you don't need line br
       width:50%;
       height:auto;
       margin:auto;
+      line-height:2px;
     }
   </style>
   
