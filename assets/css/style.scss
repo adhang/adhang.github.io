@@ -123,17 +123,23 @@ pre {
 table {
   width:80%;
   border-collapse:collapse;
+  margin:0 auto;
 }
 
 // table header, table data
 th, td {
   text-align:center;
   padding:5px 10px;
+  border: none;
   //border-bottom:1px solid #e5e5e5;
 }
 
 th {
   color: var(--extendedGreen200);
+}
+
+img {
+  max-width:80%;
 }
 
 // body wrapper
