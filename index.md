@@ -99,18 +99,7 @@ For a better experience, change it to a desktop layout and full-screen mode. The
 ---
 
 ---
-<!-- The Modal -->
-<div id="modal-container" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img-modal">
-
-  <!-- Modal Caption (Image Text) -->
-  <div id="caption"></div>
-</div>
+{% include image-modal.html %}
 ---
 <p>
   <small>

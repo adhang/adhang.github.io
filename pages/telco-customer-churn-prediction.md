@@ -97,3 +97,5 @@ I do some data preprocessing, such as:
 ## Explainable AI
 
 ## Model Deployment
+
+{% include image-modal.html %}
