@@ -39,7 +39,7 @@
   - `StreamingTV` - Whether the customer has streaming TV or not
   - `StreamingMovies` - Whether the customer has streaming movies or not
 
-**Note:** Since this dataset is using `CamelCase` format for the column names, for this project, I will convert it to `snake_case` format.
+Note: Since this dataset is using `CamelCase` format for the column names, for this project, I will convert it to `snake_case` format.
 <br><br>
 
 **Company Goals**<br>
@@ -67,6 +67,12 @@ Increasing profit! But how can we achieve it? Some of the way to increase profit
 ### What Happened?
 
 27% customers leave us!
+
+<img class="img-modal-src" src="pages/telco-customer-churn-prediction/target-distribution-fcauto.svg?raw=true" alt="facecolor auto">
+
+<img class="img-modal-src" src="pages/telco-customer-churn-prediction/target-distribution-fcwhite.svg?raw=true" alt="facecolor white">
+
+<img class="img-modal-src" src="pages/telco-customer-churn-prediction/target-distribution-transparent.svg?raw=true" alt="transparent">
 
 ### Top 5 Churn Probability
 
