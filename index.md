@@ -89,10 +89,10 @@ I made a dashboard to show the spread of COVID-19 in Indonesia from March 2020 t
 
 <img class="img-modal-src" src="page-content/dashboard-covid19-indonesia.png?raw=true" alt="Indonesia COVID-19 Dashboard">
 
-**Interactive Version**<br>
+<!-- **Interactive Version**<br>
 For a better experience, change it to a desktop layout and full-screen mode. The settings are on the bottom right.
 <div id="tableauViz" style="max-width:100%; max-height:400px; overflow:auto;"></div>
-<button onclick="exportToPDF();">Export to PDF</button>
+<button onclick="exportToPDF();">Export to PDF</button> -->
 
 ---
 ## <a href="https://adhang.github.io/pages/telco-customer-churn-prediction" target="_blank">Telco Customer Churn Prediction</a>
