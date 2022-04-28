@@ -1,5 +1,7 @@
 # Telco Customer Churn Prediction
 
+## Dataset & Business Understanding
+
 **Dataset Information**
 - This dataset contains customer information from a fictional telco company
 - This company provides various services such as streaming, phone, and internet services
@@ -59,3 +61,33 @@ Increasing profit! But how can we achieve it? Some of the way to increase profit
 - Understanding the customer behaviors:
   - What keeps customers using the service
   - What makes customers leave the service
+
+## Exploratory Data Analysis
+
+### What Happened?
+
+27% customers leave us!
+
+### Top 5 Churn Probability
+
+### Top 5 Retain Probability
+
+### Attribute Associations to Churn Status
+
+## Data Preprocessing
+
+I do some data preprocessing, such as:
+- Imputing missing values
+- Removing redundant values
+- Train - test split
+- Feature encoding
+- Feature scaling
+- Oversampling with SMOTE
+
+## Model Development & Evaluation
+
+## Conclusion
+
+## Explainable AI
+
+## Model Deployment
