@@ -120,6 +120,17 @@ pre {
   overflow-x: auto;
 }
 
+// table header, table data
+th, td {
+  text-align:center;
+  padding:5px 10px;
+  border-bottom:1px solid #e5e5e5;
+}
+
+th {
+  color: var(--extendedGreen200);
+}
+
 // body wrapper
 .wrapper {
   width: 1140px;
