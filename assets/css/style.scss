@@ -124,11 +124,11 @@ header {
   
   float: left;
   position: fixed;
-  padding: 20px;
   
   // width: 25%;
   // max-width: 300px;
   width: 260px;
+  padding: 20px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -138,11 +138,11 @@ section {
   background: var(--color800);
   
   float: right;
-  padding: 20px;
   
   // width: 75%;
   // max-width: 800px;
   width: 760px;
+  padding: 20px;
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
