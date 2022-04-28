@@ -15,6 +15,7 @@
 **Contents**
 - Learning summary (in Bahasa Indonesia)
 - SQL (PostgreSQL)
+- Business Intelligence (Google Data Studio)
 - Python basic programming
 - Numpy array and Pandas dataframe
 - Database programming (psycopg2)
@@ -23,10 +24,11 @@
 - Data Visualization
 - Data Preprocessing
 - Machine Learning
+- Model deployment
 
 **Final Project**
 - Telco customer churn prediction
-- Status: ongoing
+- Deployment: [Customer Churn Prediction App](https://adhang-churn.herokuapp.com/)
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/data-science-digital-skola)
 
@@ -35,19 +37,10 @@
 ---
 
 **Contents**
-- Basic EDA
-  - Credit card customer dataset
-  - Stroke prediction dataset
-- Classification
-  - K-Nearest Neighbors
-    - Iris Flower
-  - Logistic Regression
-    - Diabetes Prediction
-    - Stroke Prediction
-- Regression
-  - Linear Regression - Boston House Prices Prediction
-- Misc
-  - Scraping tables from clean PDF
+- Exploratory Data Analysis (EDA)
+- Data preprocessing
+- Classification problems
+- Regression problems
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/learn-data-science)
 
