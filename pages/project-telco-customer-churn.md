@@ -70,19 +70,19 @@ Increasing profit! But how can we achieve it? Some of the way to increase profit
 
 27% customers leave us!
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution.svg" alt="Target Distribution">
+<img class="img-modal-src" src="project-telco-customer-churn/target-distribution.svg" alt="Target Distribution">
 
 ### Top 5 Churn Probability
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/top-5-churn-probability.svg" alt="Top 5 Churn Probability">
+<img class="img-modal-src" src="project-telco-customer-churn/top-5-churn-probability.svg" alt="Top 5 Churn Probability">
 
 ### Top 5 Retain Probability
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/top-5-retain-probability.svg" alt="Top 5 Retain Probability">
+<img class="img-modal-src" src="project-telco-customer-churn/top-5-retain-probability.svg" alt="Top 5 Retain Probability">
 
 ### Attribute Associations to Churn Status
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/attribute-associations-to-churn-status.svg" alt="Attribute Associations to Churn Status">
+<img class="img-modal-src" src="project-telco-customer-churn/attribute-associations-to-churn-status.svg" alt="Attribute Associations to Churn Status">
 
 ## Data Preprocessing
 
@@ -146,11 +146,11 @@ See [papers](https://github.com/slundberg/shap#citations) for details and citati
 
 ### Decision Plot
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/shap-multiple-decision-plot.svg" alt="SHAP Multiple Decision Plot">
+<img class="img-modal-src" src="project-telco-customer-churn/shap-multiple-decision-plot.svg" alt="SHAP Multiple Decision Plot">
 
 ### Waterfall Plot
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/shap-waterfall-plot.svg" alt="SHAP Waterfall Plot">
+<img class="img-modal-src" src="project-telco-customer-churn/shap-waterfall-plot.svg" alt="SHAP Waterfall Plot">
 
 ## Model Deployment
 
@@ -159,5 +159,3 @@ I had deployed my model on a web app using Flask and Heroku. You can try it [her
 ## Notebook
 
 You can find the detailed project on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/adhang)
-
-{% include image-modal.html %}
