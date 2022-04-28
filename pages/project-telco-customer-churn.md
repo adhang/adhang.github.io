@@ -158,4 +158,4 @@ I had deployed my model on a web app using Flask and Heroku. You can try it [her
 
 ## Notebook
 
-You can find the detailed project on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/adhang)
+You can find the detailed project on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/adhang/telco-customer-churn-prediction-complete-guide)
