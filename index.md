@@ -8,15 +8,15 @@
 
 [![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA&langs_cont=10)](https://github.com/adhang)
 
-### [Data Science Bootcamp - Digital Skola](https://adhang.github.io/pages/data-science-bootcamp-digital-skola)
+### [Data Science Bootcamp - Digital Skola](https://adhang.github.io/pages/github-data-science-digital-skola)
 
-### [Learn Data Science](https://adhang.github.io/pages/learning-data-science)
+### [Learn Data Science](https://adhang.github.io/pages/github-learn-data-science)
 
 ---
 ## Data Science Projects
 ---
 
-### [Telco Customer Churn Prediction](https://adhang.github.io/pages/telco-customer-churn-prediction)
+### [Telco Customer Churn Prediction](https://adhang.github.io/pages/project-telco-customer-churn)
 
 ### [Boston House Prices Prediction](https://adhang.github.io/pages/project-boston-house-prices)
 
