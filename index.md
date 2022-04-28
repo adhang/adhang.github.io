@@ -95,6 +95,10 @@ For a better experience, change it to a desktop layout and full-screen mode. The
 <button onclick="exportToPDF();">Export to PDF</button>
 
 ---
+## <a href="https://adhang.github.io/pages/telco-customer-churn-prediction" target="_blank">Telco Customer Churn Prediction</a>
+---
+
+---
 <!-- The Modal -->
 <div id="modal-container" class="modal">
 
