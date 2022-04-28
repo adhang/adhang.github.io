@@ -73,6 +73,10 @@ h2 {
   padding: 10px;
 }
 
+p, ul, ol, table, pre, dl {
+  margin:0 0 10px;
+}
+
 // horizontal line (--- or ___ in markdown)
 hr {
   border: 0;
