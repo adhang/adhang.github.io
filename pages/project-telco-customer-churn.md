@@ -182,7 +182,7 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
   text-align: right;
 }
 </style>
-<table id="T_be2f1_">
+<table id="T_be2f1_" style="width: auto">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
