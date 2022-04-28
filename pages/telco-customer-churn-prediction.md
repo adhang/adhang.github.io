@@ -92,14 +92,38 @@ I do some data preprocessing, such as:
 - Feature scaling
 - Oversampling with SMOTE
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/attribute-associations-to-churn-status.svg" alt="Attribute Associations to Churn Status">
 ## Model Development & Evaluation
+
+I tried several machine learning algorithms, such as:
+- Logistic regression
+- Ridge classifier
+- KNN
+- SVC
+- Neural network
+- Decision tree
+- Random forest
+- Gradient boosting classifier
+- AdaBoost classifier
+- CatBoost classifier
+- Hist gradient boosting classifier
+- XGBoost
+- LightGBM
+<br><br>
+
+Overall, boosting methods show a good performance. Then, I tried to compare some feature selection methods and hyperparameter tuning to see if the performance of boosting methods can be improved.
+<br><br>
+My tuning strategy focuses on optimizing the positive recall value (not the average) to minimize the occurrence of false negatives, which is when we incorrectly predict customers who actually churn as non-churn. This is because the cost of acquiring new customers is more expensive than retaining existing customers.
+<br><br>
+But, I still pay attention to the accuracy score as well.
 
 ## Conclusion
 
 **Final Model**<br>
-LightGBM with feature selection using filter method
+LightGBM with feature selection using filter method and get:
+- Accuracy 76.2%
+- Positive recall 79.1%
 <br><br>
+
 **Recommendation and Request**<br>
 - We should pay more attention to customers who meet the criteria below
   - Contract: Month-to-month
