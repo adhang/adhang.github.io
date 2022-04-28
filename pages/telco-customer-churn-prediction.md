@@ -1,5 +1,7 @@
 # Telco Customer Churn Prediction
 
+In this project, I designed a predictive model to determine the probability that customers will leave the service (churn) or continue to use the service (retain) at a telco company. In working on this project, I used a workflow based on the CRISP-DM model, starting from business understanding, data understanding, data preparation, modeling, evaluation, and deployment.
+
 ## Dataset & Business Understanding
 
 **Dataset Information**
