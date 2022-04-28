@@ -58,9 +58,15 @@ a:hover, a:focus {
 // headings color
 h1, h2, h3, h4, h5, h6 {
   color: var(--extendedGreen200);
-  margin:0 0 10px;
 }
 
+h1, h2 {
+  margin:0 0 20px;
+}
+
+h3, h4, h5, h6 {
+  margin:0 0 10px;
+}
 h3 {
   border-radius: 5px;                 // curved edge (all)
   background-color: var(--color700);  // darker than h2
