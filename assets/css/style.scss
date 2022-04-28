@@ -145,7 +145,7 @@ img {
 // body wrapper
 .wrapper {
   width: 1140px;
-  margin: 0 auto;
+  margin: auto;
   //width: 100%;
   //max-width: 1366px; // my screen is still 1366 x 768
   //margin: 0 auto;
@@ -159,10 +159,7 @@ header {
   float: left;
   position: fixed;
   
-  // width: 25%;
-  // max-width: 300px;
   width: 260px;
-  height: 100%;
   padding: 20px;
   margin-bottom: 50px;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -183,8 +180,6 @@ section {
   
   float: right;
   
-  // width: 75%;
-  // max-width: 800px;
   width: 760px;
   padding: 20px;
   margin-bottom: 50px;
