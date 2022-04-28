@@ -145,7 +145,7 @@ img {
 // body wrapper
 .wrapper {
   width: 1140px;
-  margin: auto;
+  margin: 0 auto;
   //width: 100%;
   //max-width: 1366px; // my screen is still 1366 x 768
   //margin: 0 auto;
@@ -161,7 +161,6 @@ header {
   
   width: 260px;
   padding: 20px;
-  margin-bottom: 50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -182,7 +181,7 @@ section {
   
   width: 760px;
   padding: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 
 @media print, screen and (max-width: 960px) { // on different screen size
