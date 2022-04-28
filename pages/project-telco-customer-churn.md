@@ -2,7 +2,7 @@
 
 In this project, I designed a predictive model to determine the probability that customers will leave the service (churn) or continue to use the service (retain) at a telco company. In working on this project, I used a workflow based on the CRISP-DM model, starting from business understanding, data understanding, data preparation, modeling, evaluation, and deployment.
 
-## Notebook & Presentation
+## Project Notebook & Presentation
 
 You can find the detailed project on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/adhang/telco-customer-churn-prediction-complete-guide) and download my project presentation [here](https://adhang.github.io/pages/project-telco-customer-churn/project-presentation.pdf)
 
