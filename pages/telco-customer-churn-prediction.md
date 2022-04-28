@@ -68,17 +68,19 @@ Increasing profit! But how can we achieve it? Some of the way to increase profit
 
 27% customers leave us!
 
-<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution-fcauto.svg" alt="facecolor auto">
-
-<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution-fcwhite.svg" alt="facecolor white">
-
-<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution-transparent.svg" alt="transparent">
+<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution.svg" alt="Target Distribution">
 
 ### Top 5 Churn Probability
 
+<img class="img-modal-src" src="telco-customer-churn-prediction/top-5-churn-probability.svg" alt="Top 5 Churn Probability">
+
 ### Top 5 Retain Probability
 
+<img class="img-modal-src" src="telco-customer-churn-prediction/top-5-retain-probability.svg" alt="Top 5 Retain Probability">
+
 ### Attribute Associations to Churn Status
+
+<img class="img-modal-src" src="telco-customer-churn-prediction/attribute-associations-to-churn-status.svg" alt="Attribute Associations to Churn Status">
 
 ## Data Preprocessing
 
@@ -96,6 +98,16 @@ I do some data preprocessing, such as:
 
 ## Explainable AI
 
+### Decision Plot
+
+<img class="img-modal-src" src="telco-customer-churn-prediction/shap-multiple-decision-plot.svg" alt="SHAP Multiple Decision Plot">
+
+### Waterfall Plot
+
+<img class="img-modal-src" src="telco-customer-churn-prediction/shap-waterfall-plot.svg" alt="SHAP Waterfall Plot">
+
 ## Model Deployment
+
+I had deployed my model on a web app using Flask and Heroku. You can try it [here](https://adhang-churn.herokuapp.com/)
 
 {% include image-modal.html %}
