@@ -68,11 +68,11 @@ Increasing profit! But how can we achieve it? Some of the way to increase profit
 
 27% customers leave us!
 
-<img class="img-modal-src" src="pages/telco-customer-churn-prediction/target-distribution-fcauto.svg" alt="facecolor auto">
+<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution-fcauto.svg" alt="facecolor auto">
 
-<img class="img-modal-src" src="pages/telco-customer-churn-prediction/target-distribution-fcwhite.svg" alt="facecolor white">
+<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution-fcwhite.svg" alt="facecolor white">
 
-<img class="img-modal-src" src="pages/telco-customer-churn-prediction/target-distribution-transparent.svg" alt="transparent">
+<img class="img-modal-src" src="telco-customer-churn-prediction/target-distribution-transparent.svg" alt="transparent">
 
 ### Top 5 Churn Probability
 
