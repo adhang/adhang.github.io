@@ -122,8 +122,8 @@ But, I still pay attention to the accuracy score as well.
 
 **Final Model**<br>
 LightGBM with feature selection using filter method and get:
-- Accuracy 76.2%
-- Positive recall 79.1%
+- Accuracy: 76.2%
+- Positive recall: 79.1%
 <br><br>
 
 **Recommendation and Request**<br>
