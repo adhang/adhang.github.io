@@ -7,10 +7,12 @@ description: > # your text below (remove <br> elements if you don't need line br
   
   <style>
     .social {
-      width:50%;
-      height:auto;
-      margin:auto;
-      line-height:2px;
+      width: 50%;
+      height: auto;
+      margin: auto;
+      line-height: 2px;
+      align-content: center;
+      text-align: center;
     }
   </style>
   
