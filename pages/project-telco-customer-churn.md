@@ -176,7 +176,7 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
   color: #000000;
 }
 </style>
-<table id="T_be2f1_">
+<table id="T_be2f1_" style="border:none;">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
@@ -184,7 +184,7 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
       <th class="col_heading level0 col1" >recall</th>
       <th class="col_heading level0 col2" >fbeta</th>
     </tr>
-    <tr>
+    <tr style="text-align: right;">
       <th class="index_name level0" >model</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
@@ -193,37 +193,37 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
   </thead>
   <tbody>
     <tr>
-      <th id="T_be2f1_level0_row0" class="row_heading level0 row0" >Gradient Boosting Classifier</th>
+      <th id="T_be2f1_level0_row0" class="row_heading level0 row0" style="text-align: right;">Gradient Boosting Classifier</th>
       <td id="T_be2f1_row0_col0" class="data row0 col0" >0.775</td>
       <td id="T_be2f1_row0_col1" class="data row0 col1" >0.766</td>
       <td id="T_be2f1_row0_col2" class="data row0 col2" >0.771</td>
     </tr>
     <tr>
-      <th id="T_be2f1_level0_row1" class="row_heading level0 row1" >AdaBoost Classifier</th>
+      <th id="T_be2f1_level0_row1" class="row_heading level0 row1" style="text-align: right;">AdaBoost Classifier</th>
       <td id="T_be2f1_row1_col0" class="data row1 col0" >0.759</td>
       <td id="T_be2f1_row1_col1" class="data row1 col1" >0.783</td>
       <td id="T_be2f1_row1_col2" class="data row1 col2" >0.770</td>
     </tr>
     <tr>
-      <th id="T_be2f1_level0_row2" class="row_heading level0 row2" >CatBoost Classifier</th>
+      <th id="T_be2f1_level0_row2" class="row_heading level0 row2" style="text-align: right;">CatBoost Classifier</th>
       <td id="T_be2f1_row2_col0" class="data row2 col0" >0.761</td>
       <td id="T_be2f1_row2_col1" class="data row2 col1" >0.765</td>
       <td id="T_be2f1_row2_col2" class="data row2 col2" >0.763</td>
     </tr>
     <tr>
-      <th id="T_be2f1_level0_row3" class="row_heading level0 row3" >Hist Gradient Boosting</th>
+      <th id="T_be2f1_level0_row3" class="row_heading level0 row3" style="text-align: right;">Hist Gradient Boosting</th>
       <td id="T_be2f1_row3_col0" class="data row3 col0" >0.756</td>
       <td id="T_be2f1_row3_col1" class="data row3 col1" >0.781</td>
       <td id="T_be2f1_row3_col2" class="data row3 col2" >0.768</td>
     </tr>
     <tr>
-      <th id="T_be2f1_level0_row4" class="row_heading level0 row4" >XGBoost</th>
+      <th id="T_be2f1_level0_row4" class="row_heading level0 row4" style="text-align: right;">XGBoost</th>
       <td id="T_be2f1_row4_col0" class="data row4 col0" >0.761</td>
       <td id="T_be2f1_row4_col1" class="data row4 col1" >0.779</td>
       <td id="T_be2f1_row4_col2" class="data row4 col2" >0.770</td>
     </tr>
     <tr>
-      <th id="T_be2f1_level0_row5" class="row_heading level0 row5" >LightGBM</th>
+      <th id="T_be2f1_level0_row5" class="row_heading level0 row5" style="text-align: right;">LightGBM</th>
       <td id="T_be2f1_row5_col0" class="data row5 col0" >0.762</td>
       <td id="T_be2f1_row5_col1" class="data row5 col1" >0.791</td>
       <td id="T_be2f1_row5_col2" class="data row5 col2" >0.777</td>
