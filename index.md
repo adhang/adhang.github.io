@@ -9,40 +9,16 @@
 [![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA&langs_cont=10)](https://github.com/adhang)
 
 ---
-### Data Science Bootcamp - Digital Skola
+### [Data Science Bootcamp - Digital Skola](https://adhang.github.io/pages/data-science-bootcamp-digital-skola)
 ---
 
-**Contents**
-- Learning summary (in Bahasa Indonesia)
-- SQL (PostgreSQL)
-- Business Intelligence (Google Data Studio)
-- Python basic programming
-- Numpy array and Pandas dataframe
-- Database programming (psycopg2)
-- Application Programming Interface (API)
-- Statistics (descriptive and inferential statistics)
-- Data Visualization
-- Data Preprocessing
-- Machine Learning
-- Model deployment
-
-**Final Project**
-- Telco customer churn prediction
-- Deployment: [Customer Churn Prediction App](https://adhang-churn.herokuapp.com/)
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=data-science-digital-skola&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/data-science-digital-skola)
+My Documentation during the data science bootcamp from Digital Skola
 
 ---
-### Learn Data Science
+### [Learn Data Science](https://adhang.github.io/pages/learning-data-science)
 ---
 
-**Contents**
-- Exploratory Data Analysis (EDA)
-- Data preprocessing
-- Classification problems
-- Regression problems
-
-[![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-data-science&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/learn-data-science)
+My documentation on learning data science and machine learning
 
 ---
 ## Kaggle
