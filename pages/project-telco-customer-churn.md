@@ -175,7 +175,7 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
   background-color: #b4c4df;
   color: #000000;
 }
-#T_be2f1_ th, #T_be2f1_ tr {
+#T_be2f1_ th, #T_be2f1_ td {
   border: none;
 }
 </style>
