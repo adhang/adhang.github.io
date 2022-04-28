@@ -178,12 +178,11 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
 #T_be2f1_ th, #T_be2f1_ td {
   border: none;
 }
-.index_name th, .row_heading th{
+.telco-table-body th {
   text-align: right;
-  width: auto;
 }
 </style>
-<table id="T_be2f1_">
+<table id="T_be2f1_" style="width: auto; max-width: 80%">
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
@@ -192,13 +191,13 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
       <th class="col_heading level0 col2" >fbeta</th>
     </tr>
     <tr>
-      <th class="index_name level0">model</th>
+      <th class="index_name level0" style="text-align: right;">model</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
       <th class="blank col2" >&nbsp;</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="telco-table-body">
     <tr>
       <th id="T_be2f1_level0_row0" class="row_heading level0 row0">Gradient Boosting Classifier</th>
       <td id="T_be2f1_row0_col0" class="data row0 col0" >0.775</td>
