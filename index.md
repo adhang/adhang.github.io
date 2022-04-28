@@ -98,17 +98,16 @@ For a better experience, change it to a desktop layout and full-screen mode. The
 ## <a href="https://adhang.github.io/pages/telco-customer-churn-prediction" target="_blank">Telco Customer Churn Prediction</a>
 ---
 
----
 {% include image-modal.html %}
 ---
 <p>
   <small>
     Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a>
-    <br>
+    |
     Page template forked from <a href="https://github.com/evanca/quick-portfolio">evanca</a>
-    <br>
+    |
     Umbrella icons created by <a href="https://www.flaticon.com/free-icons/umbrella" title="umbrella icons">photo3idea_studio &mdash; Flaticon</a>
-    <br>
+    |
     Github readme stats created by <a href="https://github.com/anuraghazra/github-readme-stats">anuraghazra</a>
   </small>
 </p>
