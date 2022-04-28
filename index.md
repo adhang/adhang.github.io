@@ -8,53 +8,25 @@
 
 [![Adhang's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=adhang&layout=compact&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA&langs_cont=10)](https://github.com/adhang)
 
----
 ### [Data Science Bootcamp - Digital Skola](https://adhang.github.io/pages/data-science-bootcamp-digital-skola)
----
 
 My Documentation during the data science bootcamp from Digital Skola
 
----
 ### [Learn Data Science](https://adhang.github.io/pages/learning-data-science)
----
 
 My documentation on learning data science and machine learning
 
 ---
-## Kaggle
----
-### <a href="https://www.kaggle.com/code/adhang/boston-house-prices-linear-regression" target="_blank">Boston House Prices Prediction</a>
+## Data Science Projects
 ---
 
-Predicting the house prices in Boston using **Univariate** and **Multivariate Linear Regression**
+### [Telco Customer Churn Prediction](https://adhang.github.io/pages/telco-customer-churn-prediction)
 
-<img class="img-modal-src" src="page-content/boston-multivariate-linear-regression.png?raw=true" alt="Boston House Prices - Multivariate Linear Regression">
+### [Boston House Prices Prediction](https://adhang.github.io/pages/project-boston-house-prices)
 
----
-### <a href="https://www.kaggle.com/code/adhang/iris-flower-classification-knn-100-accuracy" target="_blank">Iris Flower Classification</a>
----
+### [Iris Flower Classification](https://adhang.github.io/pages/project-iris-flower)
 
-Iris flower classification based on the size of petal and sepal using **K-Nearest Neighbors (KNN)**
-
-<img class="img-modal-src" src="page-content/iris-pair-plot.png?raw=true" alt="Iris - Data Distribution">
-
-Since the KNN algorithm uses distance measurements, **feature scaling** is mandatory.
-
-<img class="img-modal-src" src="page-content/iris-hist.png?raw=true" alt="Iris - Histogram">
-
-I'm using **min-max scaler** (MinMaxScaler) for this project because the data distribution is not normal. And then, I use a **grid search** to find the best hyperparameter.
-
-<img class="img-modal-src" src="page-content/iris-confusion-matrix-gs.png?raw=true" alt="Iris - Confusion Matrix" width="70%">
-
-After using the best hyperparameter, I got **100% accuracy!**
-
----
-### <a href="https://www.kaggle.com/code/adhang/diabetes-prediction-simple-logistic-regression" target="_blank">Diabetes Prediction</a>
----
-
-Predicting whether a patient is likely to get a diabetes based on the glucose level using **Simple Logistic Regression**
-
-<img class="img-modal-src" src="page-content/diabetes-logistic-function.png?raw=true" alt="Diabetes - Logistic Function">
+### [Diabetes Prediction](https://adhang.github.io/pages/project-diabetes-prediction)
 
 ---
 ## Tableau
@@ -70,11 +42,8 @@ For a better experience, change it to a desktop layout and full-screen mode. The
 <div id="tableauViz" style="max-width:100%; max-height:400px; overflow:auto;"></div>
 <button onclick="exportToPDF();">Export to PDF</button> -->
 
----
-## [Telco Customer Churn Prediction](https://adhang.github.io/pages/telco-customer-churn-prediction)
----
-
 {% include image-modal.html %}
+
 ---
 <p>
   <small>
