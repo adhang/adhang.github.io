@@ -92,11 +92,31 @@ I do some data preprocessing, such as:
 - Feature scaling
 - Oversampling with SMOTE
 
+<img class="img-modal-src" src="telco-customer-churn-prediction/attribute-associations-to-churn-status.svg" alt="Attribute Associations to Churn Status">
 ## Model Development & Evaluation
 
 ## Conclusion
 
+**Final Model**<br>
+LightGBM with feature selection using filter method
+<br><br>
+**Recommendation and Request**<br>
+- We should pay more attention to customers who meet the criteria below
+  - Contract: Month-to-month
+  - Tenure: Short tenure
+  - Internet service: Fiber optic
+  - Payment method: Electronic check
+
+- Please, evaluate our service! <br>
+  Especially for internet service (fiber optic) and payment method (electronic check)
+- Can we give more benefit to a new customer? <br>
+Because the new customer has a high probability to churn
+
 ## Explainable AI
+
+SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model.
+<br><br>
+See [papers](https://github.com/slundberg/shap#citations) for details and citations.
 
 ### Decision Plot
 
