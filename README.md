@@ -11,10 +11,10 @@ The original version of the minimal theme is in light mode. So, I made some modi
 You can fork this repo to create your GitHub page, BUT:
 - Make sure to **remove the google analytics tracking ID** in `_config.yml`. Otherwise, it will affect my google analytics for sure.
 - Please **remove all my works/ portfolio**, such as data viz, dashboard, etc
-- **Change the favicon** to your own icon
-- **Change the logo** to your own logo/ photo
-- **Change the title** to your own title (in `_layouts/default.html`)
-- **Change the preview image** to your own image (it contains my face, please remove it)
+- **Change the favicon** to your own icon in `images` directory and `_layouts/default.html`
+- **Change the logo** to your own logo/ photo in `images/logo-avatar.png`
+- **Change the title** to your own title in `_layouts/default.html`
+- **Change the preview image** to your own image in `images/preview-image.png` (it contains my face, please remove it)
 
 ### Installation
 
