@@ -1,10 +1,13 @@
 ## Adhang's Portfolio
 
+___
+
 ### Minimal Theme | Dark Mode
 
 This GitHub page template was forked from [evanca](https://github.com/evanca/quick-portfolio) based on the Minimal theme from [orderedlist](https://github.com/orderedlist/minimal)
 
 The original version of the minimal theme is in light mode. So, I made some modifications to create this dark mode.
+___
 
 ### Forking Cautions
 
@@ -15,6 +18,7 @@ You can fork this repo to create your GitHub page, BUT:
 - **Change the favicon** to your own icon in `images/favicon-solid.png`
 - **Change the logo** to your own logo/ photo in `images/logo-avatar.png`
 - **Change the preview image** to your own image in `images/preview-image.png` (it contains my face, please remove it)
+___
 
 ### Installation
 
