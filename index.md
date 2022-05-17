@@ -16,6 +16,8 @@
 ## Data Science Projects
 ---
 
+### [LendingClub - Loan Credit Risk Prediction](https://adhang.github.io/pages/project-lendingclub-loan-credit)
+
 ### [Telco Customer Churn Prediction](https://adhang.github.io/pages/project-telco-customer-churn)
 
 ### [Boston House Prices Prediction](https://adhang.github.io/pages/project-boston-house-prices)
