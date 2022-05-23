@@ -1,9 +1,15 @@
 # Profile Summary
 
+---
+
 - I'm a graduate of the Computer Science and Electronics Department from Universitas Gadjah Mada with a Bachelor of Science degree.
 - As a data enthusiast, I have a strong growth mindset. I take various courses to improve my skills in the data science field.
 - I'm a quick learner, detail-oriented, and able to communicate technical matters in a simple way. 
 - I have certification from Huawei in artificial intelligence and I’m interested in a career as a data scientist.
+
+[Download Curriculum Vitae](https://adhang.github.io/uploads/CV_Adhang_May_2022.pdf)
+
+---
 
 # Portfolio
 
