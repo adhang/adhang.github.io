@@ -52,6 +52,16 @@ Increasing profit! But how can we achieve it? Some ways to increase profits are:
 
 ## Exploratory Data Analysis
 
+### What Happened?
+
+### Top 5 Bad Loan Probability
+
+### Top 5 Good Loan Probability
+
+### Top 5 Associations to Loan Status
+
+### Bottom 5 Associations to Loan Status
+
 ## Data Preprocessing
 
 ## Model Development & Evaluation
