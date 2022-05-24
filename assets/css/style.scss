@@ -63,9 +63,8 @@ h1, h2, h3, h4, h5, h6 {
 section h1, section h2, section h3,
 section h4, section h5, section h6,
 section p {
-  padding: 0 10px;                    // padding left-right 10
-  // padding-left: 10px;
-  // padding-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h3, h4, h5, h6 {
