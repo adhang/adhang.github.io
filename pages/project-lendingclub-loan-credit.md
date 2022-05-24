@@ -1,4 +1,4 @@
-# LoanClub - Loan Credit Risk Prediction
+# LendingClub - Loan Credit Risk Prediction
 
 This is my internship project as a data scientist at [id/x partners](https://idxpartners.com/)
 <br><br>
