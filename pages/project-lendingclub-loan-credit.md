@@ -56,7 +56,7 @@ Increasing profit! But how can we achieve it? Some ways to increase profits are:
 
 The `Good` status is when the loan status is either `Current` or `Fully Paid`, otherwise the status is `Bad` (risky)
 
-<img class="img-modal-src" src="project-telco-customer-churn/target-distribution.svg" alt="Target Distribution">
+<img class="img-modal-src" src="project-lendingclub-loan-credit/target-distribution.svg" alt="Target Distribution">
 
 - There are 12% of borrowers who have a risky loan status
 - Technically speaking, this dataset is an imbalanced dataset
