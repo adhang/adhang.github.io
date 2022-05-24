@@ -68,6 +68,12 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 - Many borrowers have the words `Manager`, `Service`, `Director`, `Assistant`, `Sale`, `Teacher`, or `Nurse` in their employment title
 - Many borrowers didn't write their employment title, so it's marked as `Unknown`
 
+### Why Did They Apply for a Loan?
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/loan-purpose-distribution.svg" alt="Loan Purpose Distribution">
+
+- Most borrowers apply for loans for the purpose of debt consolidation
+
 ### Top 5 Bad Loan Probability
 
 ### Top 5 Good Loan Probability
