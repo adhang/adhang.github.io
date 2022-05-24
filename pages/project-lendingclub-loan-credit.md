@@ -80,6 +80,14 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 - Most borrowers have grade B and C
 
+### Loan Credit Risk Probability by Date Features
+
+#### Issue Date
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/issue-date-probability.svg" alt="Loan Status Probability by Issue Date">
+
+#### Last Payment Date
+
 ### Top 5 Bad Loan Probability
 
 ### Top 5 Good Loan Probability
