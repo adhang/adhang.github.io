@@ -60,7 +60,12 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--extendedGreen200);
 }
 
-section p, h1 {
+section h1, section h2, section h3,
+section h4, section h5, section h6,
+section p, 
+section ul, section ol, 
+section table, section pre,
+section dl {
   padding: 10px;
 }
 
