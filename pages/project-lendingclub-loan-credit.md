@@ -74,6 +74,12 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 - Most borrowers apply for loans for the purpose of debt consolidation
 
+### What is Their Grade?
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/grade-distribution.svg" alt="Grade Distribution">
+
+- Most borrowers have grade B and C
+
 ### Top 5 Bad Loan Probability
 
 ### Top 5 Good Loan Probability
