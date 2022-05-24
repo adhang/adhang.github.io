@@ -14,4 +14,4 @@ I'm using **min-max scaler** (MinMaxScaler) for this project because the data di
 
 After using the best hyperparameter, I got **100% accuracy!**
 
-<a href="https://www.kaggle.com/code/adhang/iris-flower-classification-knn-100-accuracy" target="_blank">Iris Flower Classification</a>
+You can find the detailed project on my [Kaggle](https://www.kaggle.com/code/adhang/iris-flower-classification-knn-100-accuracy)
