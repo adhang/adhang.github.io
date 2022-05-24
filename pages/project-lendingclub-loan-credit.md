@@ -61,6 +61,13 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 - There are 12% of borrowers who have a risky loan status
 - Technically speaking, this dataset is an imbalanced dataset
 
+### Who are The Borrowers?
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/employment-title-wordcloud.svg" alt="Employment Title Wordcloud">
+
+- Many borrowers have the words `Manager`, `Service`, `Director`, `Assistant`, `Sale`, `Teacher`, or `Nurse` in their employment title
+- Many borrowers didn't write their employment title, so it's marked as `Unknown`
+
 ### Top 5 Bad Loan Probability
 
 ### Top 5 Good Loan Probability
