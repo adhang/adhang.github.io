@@ -80,6 +80,14 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 - Most borrowers have grade B and C
 
+### Do Grades Matter?
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/grade-probability.svg" alt="Loan Status Probability by Grade">
+
+- The grade feature has a natural order based on the loan status probability
+- Grade A has the highest probability to have a good loan status.
+- Grade G has the lowest probability to have a good loan status
+
 ### Loan Credit Risk Probability by Date Features
 
 #### Issue Date
@@ -99,14 +107,6 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 <img class="img-modal-src" src="project-lendingclub-loan-credit/interest-rate-probability.svg" alt="Loan Status Probability by Interest Rate">
 
 - Borrowers with high-interest rates have a higher probability to have a bad loan status than those with a low-interest rate
-
-### Top 5 Bad Loan Probability
-
-### Top 5 Good Loan Probability
-
-### Top 5 Associations to Loan Status
-
-### Bottom 5 Associations to Loan Status
 
 ## Data Preprocessing
 
