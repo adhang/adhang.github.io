@@ -125,12 +125,23 @@ Below is the attribute associations to loan status after feature selection
 
 ## Data Preprocessing
 
+I do some data preprocessing, such as:
+- Imputing missing values
+- Removing redundant features
+- Train - test split
+- Feature encoding
+- Feature scaling
+- Reducing feature skewness
+- Oversampling with SMOTE
+
 ## Model Development & Evaluation
 
+I use XGBoost and LightGBM for model development.
+
 ## Model Optimization
+
+I use Optuna for hyperparameter tuning.
 
 ## Conclusion
 
 ## Explainable AI
-
-## Model Deployment
