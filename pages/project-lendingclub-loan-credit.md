@@ -108,6 +108,21 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 - Borrowers with high-interest rates have a higher probability to have a bad loan status than those with a low-interest rate
 
+### Attribute Associations to Loan Status
+
+I did some feature selection based on:
+- Feature cardinality <br>
+	Feature with high cardinality was dropped
+- Feature associations
+	Feature with very low association (almost zero) to loan status was dropped
+- Multicollinearity & redundant values
+	Drop one (or more) of the highly correlated features
+<br>
+
+Below is the attribute associations to loan status after feature selection
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/selected-feature-associations.svg" alt="Attribute Associations to Loan Status">
+
 ## Data Preprocessing
 
 ## Model Development & Evaluation
