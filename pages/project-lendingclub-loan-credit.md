@@ -94,6 +94,12 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 - If the last payment has been made a long time ago, then the probability of a borrower to have a bad loan status will be higher
 
+### Do Interest Rates Matter?
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/interest-rate-probability.svg" alt="Loan Status Probability by Interest Rate">
+
+- Borrowers with high-interest rates have a higher probability to have a bad loan status than those with a low-interest rate
+
 ### Top 5 Bad Loan Probability
 
 ### Top 5 Good Loan Probability
