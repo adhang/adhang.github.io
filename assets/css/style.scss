@@ -101,7 +101,7 @@ hr {
 }
 
 // bold text
-strong{
+strong {
   color: var(--extendedGreen200);
 }
 
@@ -117,6 +117,8 @@ code, pre {
   font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   background-color: var(--color900);
   color: var(--color100);
+  padding: 3px 6px;
+  border-radius: 5px;
 }
 
 pre {
