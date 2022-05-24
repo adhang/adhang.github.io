@@ -86,7 +86,13 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 <img class="img-modal-src" src="project-lendingclub-loan-credit/issue-date-probability.svg" alt="Loan Status Probability by Issue Date">
 
+- The earlier the issue date is, the higher the probability of a borrower to have a bad loan status
+
 #### Last Payment Date
+
+<img class="img-modal-src" src="project-lendingclub-loan-credit/last-payment-date-probability.svg" alt="Loan Status Probability by Last Payment Date">
+
+- If the last payment has been made a long time ago, then the probability of a borrower to have a bad loan status will be higher
 
 ### Top 5 Bad Loan Probability
 
