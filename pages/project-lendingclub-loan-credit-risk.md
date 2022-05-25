@@ -41,7 +41,7 @@ Increasing profit! But how can we achieve it? Some ways to increase profits are:
 **Problems**
 - When a lending company receives a loan application, the company has to make a decision whether the company will accept or decline based on the applicant's profile
 - If the applicant is likely to pay off the loan but we don't approve their application, it may result in a loss of income for the company
-- If the applicant is not likely to pay off the loan but we approve their application, it may result in financial loss for the company
+- If the applicant is not likely to pay off the loan but we approve their application, it may result in financial loss, aka credit risk, for the company
 <br><br>
 
 **Objectives**

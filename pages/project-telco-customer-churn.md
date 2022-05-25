@@ -4,7 +4,9 @@ In this project, I designed a predictive model to determine the probability that
 
 ## Project Notebook & Presentation
 
-You can find the detailed project on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/code/adhang/telco-customer-churn-prediction-complete-guide) and download my project presentation [here](https://adhang.github.io/pages/project-telco-customer-churn/project-presentation.pdf)
+- Detailed project notebook on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/code/adhang/telco-customer-churn-prediction-complete-guide)
+- Download project presentation [here](https://adhang.github.io/pages/project-telco-customer-churn/project-presentation.pdf)
+- Deployment repo [here](https://github.com/adhang/telco-customer-churn-prediction)
 
 ## Dataset & Business Understanding
 
