@@ -56,33 +56,33 @@ Increasing profit! But how can we achieve it? Some ways to increase profits are:
 
 The `Good` status is when the loan status is either `Current` or `Fully Paid`, otherwise the status is `Bad` (risky)
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/target-distribution.svg" alt="Target Distribution">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/target-distribution.svg" alt="Target Distribution">
 
 - There are 12% of borrowers who have a risky loan status
 - Technically speaking, this dataset is an imbalanced dataset
 
 ### Who are The Borrowers?
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/employment-title-wordcloud.svg" alt="Employment Title Wordcloud">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/employment-title-wordcloud.svg" alt="Employment Title Wordcloud">
 
 - Many borrowers have the words `Manager`, `Service`, `Director`, `Assistant`, `Sale`, `Teacher`, or `Nurse` in their employment title
 - Many borrowers didn't write their employment title, so it's marked as `Unknown`
 
 ### Why Did They Apply for a Loan?
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/loan-purpose-distribution.svg" alt="Loan Purpose Distribution">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/loan-purpose-distribution.svg" alt="Loan Purpose Distribution">
 
 - Most borrowers apply for loans for the purpose of debt consolidation
 
 ### What is Their Grade?
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/grade-distribution.svg" alt="Grade Distribution">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/grade-distribution.svg" alt="Grade Distribution">
 
 - Most borrowers have grade B and C
 
 ### Do Grades Matter?
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/grade-probability.svg" alt="Loan Status Probability by Grade">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/grade-probability.svg" alt="Loan Status Probability by Grade">
 
 - The grade feature has a natural order based on the loan status probability
 - Grade A has the highest probability to have a good loan status.
@@ -92,19 +92,19 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 #### Issue Date
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/issue-date-probability.svg" alt="Loan Status Probability by Issue Date">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/issue-date-probability.svg" alt="Loan Status Probability by Issue Date">
 
 - The earlier the issue date is, the higher the probability of a borrower to have a bad loan status
 
 #### Last Payment Date
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/last-payment-date-probability.svg" alt="Loan Status Probability by Last Payment Date">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/last-payment-date-probability.svg" alt="Loan Status Probability by Last Payment Date">
 
 - If the last payment has been made a long time ago, then the probability of a borrower to have a bad loan status will be higher
 
 ### Do Interest Rates Matter?
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/interest-rate-probability.svg" alt="Loan Status Probability by Interest Rate">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/interest-rate-probability.svg" alt="Loan Status Probability by Interest Rate">
 
 - Borrowers with high-interest rates have a higher probability to have a bad loan status than those with a low-interest rate
 
@@ -121,7 +121,7 @@ I did some feature selection based on:
 
 Below is the attribute associations to loan status after feature selection
 
-<img class="img-modal-src" src="project-lendingclub-loan-credit/selected-feature-associations.svg" alt="Attribute Associations to Loan Status">
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/selected-feature-associations.svg" alt="Attribute Associations to Loan Status">
 
 ## Data Preprocessing
 
