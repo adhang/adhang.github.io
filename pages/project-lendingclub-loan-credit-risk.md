@@ -10,9 +10,12 @@ Note: This project is still on-going, will update later.
 
 ## Project Notebooks
 
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=
+lendingclub-loan-credit-risk&show_owner=true)](https://github.com/adhang/lendingclub-loan-credit-risk)
+
 I create separated notebooks due to my limited computing resources
-- [Exploratory Data Analysis](https://github.com/adhang/learn-data-science/blob/main/LendingClub_Loan_Credit_EDA.ipynb)
-- [Machine Learning Modeling](https://github.com/adhang/learn-data-science/blob/main/LendingClub_Loan_Credit.ipynb)
+- [Exploratory Data Analysis](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_EDA.ipynb)
+- [Machine Learning Modeling](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_Modeling.ipynb)
 
 ## Dataset & Business Understanding
 
