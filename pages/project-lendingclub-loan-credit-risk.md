@@ -210,6 +210,9 @@ I use XGBoost and LightGBM for model development
   background-color: #187cb6;
   color: #f1f1f1;
 }
+#T_9ffbb_ th, #T_9ffbb_ td {
+  border: none;
+}
 .lendingclub-table-body th {
   text-align: right;
 }
