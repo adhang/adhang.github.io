@@ -142,82 +142,82 @@ I do some data preprocessing, such as:
 I use XGBoost and LightGBM for model development
 <br><br>
 <style type="text/css">
-#T_9ffbb_row0_col0 {
+#T_0f0b6_row0_col0 {
   background-color: #2685bb;
   color: #f1f1f1;
 }
-#T_9ffbb_row0_col1, #T_9ffbb_row1_col0 {
+#T_0f0b6_row0_col1, #T_0f0b6_row1_col0 {
   background-color: #3d93c2;
   color: #f1f1f1;
 }
-#T_9ffbb_row0_col2 {
+#T_0f0b6_row0_col2 {
   background-color: #348ebf;
   color: #f1f1f1;
 }
-#T_9ffbb_row1_col1 {
+#T_0f0b6_row1_col1 {
   background-color: #589ec8;
   color: #f1f1f1;
 }
-#T_9ffbb_row1_col2 {
+#T_0f0b6_row1_col2 {
   background-color: #4e9ac6;
   color: #f1f1f1;
 }
-#T_9ffbb_row2_col0 {
+#T_0f0b6_row2_col0 {
   background-color: #c2cbe2;
   color: #000000;
 }
-#T_9ffbb_row2_col1 {
+#T_0f0b6_row2_col1 {
   background-color: #d2d2e7;
   color: #000000;
 }
-#T_9ffbb_row2_col2 {
+#T_0f0b6_row2_col2 {
   background-color: #cccfe5;
   color: #000000;
 }
-#T_9ffbb_row3_col0, #T_9ffbb_row3_col1, #T_9ffbb_row3_col2 {
+#T_0f0b6_row3_col0, #T_0f0b6_row3_col1, #T_0f0b6_row3_col2 {
   background-color: #fff7fb;
   color: #000000;
 }
-#T_9ffbb_row4_col0, #T_9ffbb_row4_col1, #T_9ffbb_row4_col2, #T_9ffbb_row5_col1, #T_9ffbb_row5_col2 {
+#T_0f0b6_row4_col0, #T_0f0b6_row4_col1, #T_0f0b6_row4_col2, #T_0f0b6_row5_col1, #T_0f0b6_row5_col2 {
   background-color: #023858;
   color: #f1f1f1;
 }
-#T_9ffbb_row5_col0 {
+#T_0f0b6_row5_col0 {
   background-color: #023b5d;
   color: #f1f1f1;
 }
-#T_9ffbb_row6_col0 {
+#T_0f0b6_row6_col0 {
   background-color: #034369;
   color: #f1f1f1;
 }
-#T_9ffbb_row6_col1 {
+#T_0f0b6_row6_col1 {
   background-color: #03466e;
   color: #f1f1f1;
 }
-#T_9ffbb_row6_col2 {
+#T_0f0b6_row6_col2 {
   background-color: #03456c;
   color: #f1f1f1;
 }
-#T_9ffbb_row7_col0 {
+#T_0f0b6_row7_col0 {
   background-color: #0a73b2;
   color: #f1f1f1;
 }
-#T_9ffbb_row7_col1 {
+#T_0f0b6_row7_col1 {
   background-color: #2182b9;
   color: #f1f1f1;
 }
-#T_9ffbb_row7_col2 {
+#T_0f0b6_row7_col2 {
   background-color: #187cb6;
   color: #f1f1f1;
 }
-#T_9ffbb_ th, #T_9ffbb_ td {
+#T_0f0b6_ th, #T_0f0b6_ td {
   border: none;
 }
 .lendingclub-table-body th {
   text-align: right;
 }
 </style>
-<table id="T_9ffbb_" class="dataframe" style="width: auto">
+<table id="T_0f0b6_" class="dataframe" style="width: auto">
   <thead>
     <tr>
       <th class="blank" >&nbsp;</th>
@@ -227,8 +227,8 @@ I use XGBoost and LightGBM for model development
       <th class="col_heading level0 col2" style="width: 15%">Harmonic Mean</th>
     </tr>
     <tr>
-      <th class="index_name level0" style="text-align: right;">Feature Selection</th>
-      <th class="index_name level1" style="text-align: right;">Model</th>
+      <th class="index_name level0" style="text-align: right;">Model</th>
+      <th class="index_name level1" style="text-align: right;">Feature Selection</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
       <th class="blank col2" >&nbsp;</th>
@@ -236,63 +236,58 @@ I use XGBoost and LightGBM for model development
   </thead>
   <tbody class="lendingclub-table-body">
     <tr>
-      <th id="T_9ffbb_level0_row0" class="row_heading level0 row0" >Without Feature Selection</th>
-      <th id="T_9ffbb_level1_row0" class="row_heading level1 row0" >XGBoost</th>
-      <td id="T_9ffbb_row0_col0" class="data row0 col0" >0.950</td>
-      <td id="T_9ffbb_row0_col1" class="data row0 col1" >0.809</td>
-      <td id="T_9ffbb_row0_col2" class="data row0 col2" >0.874</td>
+      <th id="T_0f0b6_level0_row0" class="row_heading level0 row0" rowspan="4">XGBoost</th>
+      <th id="T_0f0b6_level1_row0" class="row_heading level1 row0" >Without Feature Selection</th>
+      <td id="T_0f0b6_row0_col0" class="data row0 col0" >0.950</td>
+      <td id="T_0f0b6_row0_col1" class="data row0 col1" >0.809</td>
+      <td id="T_0f0b6_row0_col2" class="data row0 col2" >0.874</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row1" class="row_heading level0 row1" >Feature Selection (75%)</th>
-      <th id="T_9ffbb_level1_row1" class="row_heading level1 row1" >XGBoost</th>
-      <td id="T_9ffbb_row1_col0" class="data row1 col0" >0.946</td>
-      <td id="T_9ffbb_row1_col1" class="data row1 col1" >0.799</td>
-      <td id="T_9ffbb_row1_col2" class="data row1 col2" >0.866</td>
+      <th id="T_0f0b6_level1_row1" class="row_heading level1 row1" >Feature Selection (75%)</th>
+      <td id="T_0f0b6_row1_col0" class="data row1 col0" >0.946</td>
+      <td id="T_0f0b6_row1_col1" class="data row1 col1" >0.799</td>
+      <td id="T_0f0b6_row1_col2" class="data row1 col2" >0.866</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row2" class="row_heading level0 row2" >Feature Selection (50%)</th>
-      <th id="T_9ffbb_level1_row2" class="row_heading level1 row2" >XGBoost</th>
-      <td id="T_9ffbb_row2_col0" class="data row2 col0" >0.923</td>
-      <td id="T_9ffbb_row2_col1" class="data row2 col1" >0.741</td>
-      <td id="T_9ffbb_row2_col2" class="data row2 col2" >0.822</td>
+      <th id="T_0f0b6_level1_row2" class="row_heading level1 row2" >Feature Selection (50%)</th>
+      <td id="T_0f0b6_row2_col0" class="data row2 col0" >0.923</td>
+      <td id="T_0f0b6_row2_col1" class="data row2 col1" >0.741</td>
+      <td id="T_0f0b6_row2_col2" class="data row2 col2" >0.822</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row3" class="row_heading level0 row3" >Feature Selection (25%)</th>
-      <th id="T_9ffbb_level1_row3" class="row_heading level1 row3" >XGBoost</th>
-      <td id="T_9ffbb_row3_col0" class="data row3 col0" >0.902</td>
-      <td id="T_9ffbb_row3_col1" class="data row3 col1" >0.695</td>
-      <td id="T_9ffbb_row3_col2" class="data row3 col2" >0.785</td>
+      <th id="T_0f0b6_level1_row3" class="row_heading level1 row3" >Feature Selection (25%)</th>
+      <td id="T_0f0b6_row3_col0" class="data row3 col0" >0.902</td>
+      <td id="T_0f0b6_row3_col1" class="data row3 col1" >0.695</td>
+      <td id="T_0f0b6_row3_col2" class="data row3 col2" >0.785</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row4" class="row_heading level0 row4" >Without Feature Selection</th>
-      <th id="T_9ffbb_level1_row4" class="row_heading level1 row4" >LightGBM</th>
-      <td id="T_9ffbb_row4_col0" class="data row4 col0" >0.974</td>
-      <td id="T_9ffbb_row4_col1" class="data row4 col1" >0.882</td>
-      <td id="T_9ffbb_row4_col2" class="data row4 col2" >0.926</td>
+      <th id="T_0f0b6_level0_row4" class="row_heading level0 row4" rowspan="4">LightGBM</th>
+      <th id="T_0f0b6_level1_row4" class="row_heading level1 row4" >Without Feature Selection</th>
+      <td id="T_0f0b6_row4_col0" class="data row4 col0" >0.974</td>
+      <td id="T_0f0b6_row4_col1" class="data row4 col1" >0.882</td>
+      <td id="T_0f0b6_row4_col2" class="data row4 col2" >0.926</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row5" class="row_heading level0 row5" >Feature Selection (75%)</th>
-      <th id="T_9ffbb_level1_row5" class="row_heading level1 row5" >LightGBM</th>
-      <td id="T_9ffbb_row5_col0" class="data row5 col0" >0.973</td>
-      <td id="T_9ffbb_row5_col1" class="data row5 col1" >0.882</td>
-      <td id="T_9ffbb_row5_col2" class="data row5 col2" >0.925</td>
+      <th id="T_0f0b6_level1_row5" class="row_heading level1 row5" >Feature Selection (75%)</th>
+      <td id="T_0f0b6_row5_col0" class="data row5 col0" >0.973</td>
+      <td id="T_0f0b6_row5_col1" class="data row5 col1" >0.882</td>
+      <td id="T_0f0b6_row5_col2" class="data row5 col2" >0.925</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row6" class="row_heading level0 row6" >Feature Selection (50%)</th>
-      <th id="T_9ffbb_level1_row6" class="row_heading level1 row6" >LightGBM</th>
-      <td id="T_9ffbb_row6_col0" class="data row6 col0" >0.971</td>
-      <td id="T_9ffbb_row6_col1" class="data row6 col1" >0.872</td>
-      <td id="T_9ffbb_row6_col2" class="data row6 col2" >0.919</td>
+      <th id="T_0f0b6_level1_row6" class="row_heading level1 row6" >Feature Selection (50%)</th>
+      <td id="T_0f0b6_row6_col0" class="data row6 col0" >0.971</td>
+      <td id="T_0f0b6_row6_col1" class="data row6 col1" >0.872</td>
+      <td id="T_0f0b6_row6_col2" class="data row6 col2" >0.919</td>
     </tr>
     <tr>
-      <th id="T_9ffbb_level0_row7" class="row_heading level0 row7" >Feature Selection (25%)</th>
-      <th id="T_9ffbb_level1_row7" class="row_heading level1 row7" >LightGBM</th>
-      <td id="T_9ffbb_row7_col0" class="data row7 col0" >0.955</td>
-      <td id="T_9ffbb_row7_col1" class="data row7 col1" >0.822</td>
-      <td id="T_9ffbb_row7_col2" class="data row7 col2" >0.884</td>
+      <th id="T_0f0b6_level1_row7" class="row_heading level1 row7" >Feature Selection (25%)</th>
+      <td id="T_0f0b6_row7_col0" class="data row7 col0" >0.955</td>
+      <td id="T_0f0b6_row7_col1" class="data row7 col1" >0.822</td>
+      <td id="T_0f0b6_row7_col2" class="data row7 col2" >0.884</td>
     </tr>
   </tbody>
 </table>
+
 
 ## Model Optimization
 
