@@ -220,7 +220,7 @@ I use XGBoost and LightGBM for model development. Below are the metric scores fo
   background-color: #1F2933;
 }
 </style>
-<table id="T_0f0b6_" class="dataframe" style="width: auto">
+<table id="T_0f0b6_" class="dataframe" style="width: auto; border-collapse: separate; border-spacing: 0;">
   <thead>
     <tr>
       <th class="blank" >&nbsp;</th>
