@@ -194,16 +194,16 @@ To do model selection, I use the harmonic mean (F-beta) of accuracy and recall.
   <thead>
     <tr>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 15%">accuracy</th>
-      <th class="col_heading level0 col1" style="width: 15%">recall</th>
-      <th class="col_heading level0 col2" style="width: 15%">fbeta</th>
+      <th class="col_heading level0 col0" style="width: 17%">accuracy</th>
+      <th class="col_heading level0 col1" style="width: 17%">recall</th>
+      <th class="col_heading level0 col2" style="width: 17%">fbeta</th>
     </tr>
-    <tr>
+<!--     <tr>
       <th class="index_name level0" style="text-align: right;">model</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
       <th class="blank col2" >&nbsp;</th>
-    </tr>
+    </tr> -->
   </thead>
   <tbody class="telco-table-body">
     <tr>
