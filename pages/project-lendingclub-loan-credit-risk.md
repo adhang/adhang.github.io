@@ -295,8 +295,8 @@ Overall, the LightGBM model performs better than the XGBoost model. What if we d
 I use Optuna for hyperparameter tuning. My tuning strategy:
 - I don't want to get a high false negative rate, therefore I have to maximize the recall score
 - However, I also don't want to get a high false positive rate, therefore I have to maximize the precision score as well
-- To overcome these conditions, I will optimize the F1-score because it is the harmonic mean of precision and recall
-- I use the F1-score from the negative class because I give more attention to optimizing the metrics for bad loan status
+- To overcome these conditions, I will optimize the F1 score because it is the harmonic mean of precision and recall
+- I use the F1 score from the negative class because I give more attention to optimizing the metrics for bad loan status
 - I'm still paying attention to the accuracy score as well since this metric is easier to interpret
 
 ### XGBoost Tuned
