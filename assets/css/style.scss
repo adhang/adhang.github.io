@@ -137,6 +137,10 @@ table {
   margin:0 auto;
 }
 
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 5px;
+}
+
 // table header, table data
 th, td {
   text-align:center;
