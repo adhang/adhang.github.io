@@ -222,17 +222,17 @@ I use XGBoost and LightGBM for model development. Below are the metric scores fo
     <tr>
       <th class="blank" >&nbsp;</th>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 17%">Accuracy</th>
-      <th class="col_heading level0 col1" style="width: 17%">F1 Score</th>
-      <th class="col_heading level0 col2" style="width: 17%">Harmonic Mean</th>
+      <th class="col_heading level0 col0" style="width: 18%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 18%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 18%">Harmonic Mean</th>
     </tr>
-    <tr>
+    <!-- <tr>
       <th class="index_name level0" style="text-align: right;">Model</th>
       <th class="index_name level1" style="text-align: right;">Feature Selection</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
       <th class="blank col2" >&nbsp;</th>
-    </tr>
+    </tr> -->
   </thead>
   <tbody class="lendingclub-table-body">
     <tr>
@@ -358,17 +358,17 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
     <tr>
       <th class="blank" >&nbsp;</th>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 17%">Accuracy</th>
-      <th class="col_heading level0 col1" style="width: 17%">F1 Score</th>
-      <th class="col_heading level0 col2" style="width: 17%">Harmonic Mean</th>
+      <th class="col_heading level0 col0" style="width: 18%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 18%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 18%">Harmonic Mean</th>
     </tr>
-    <tr>
+<!--     <tr>
       <th class="index_name level0" style="text-align: right;">Tuning Strategy</th>
       <th class="index_name level1" style="text-align: right;">Feature Selection</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
       <th class="blank col2" >&nbsp;</th>
-    </tr>
+    </tr> -->
   </thead>
   <tbody class="lendingclub-table-body">
     <tr>
@@ -496,17 +496,17 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
     <tr>
       <th class="blank" >&nbsp;</th>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 17%">Accuracy</th>
-      <th class="col_heading level0 col1" style="width: 17%">F1 Score</th>
-      <th class="col_heading level0 col2" style="width: 17%">Harmonic Mean</th>
+      <th class="col_heading level0 col0" style="width: 18%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 18%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 18%">Harmonic Mean</th>
     </tr>
-    <tr>
+<!--     <tr>
       <th class="index_name level0" style="text-align: right;">Tuning Strategy</th>
       <th class="index_name level1" style="text-align: right;">Feature Selection</th>
       <th class="blank col0" >&nbsp;</th>
       <th class="blank col1" >&nbsp;</th>
       <th class="blank col2" >&nbsp;</th>
-    </tr>
+    </tr> -->
   </thead>
   <tbody class="lendingclub-table-body">
     <tr>
