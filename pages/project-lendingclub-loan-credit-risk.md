@@ -222,9 +222,9 @@ I use XGBoost and LightGBM for model development. Below are the metric scores fo
     <tr>
       <th class="blank" >&nbsp;</th>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 20%">Accuracy</th>
-      <th class="col_heading level0 col1" style="width: 20%">F1 Score</th>
-      <th class="col_heading level0 col2" style="width: 20%">Harmonic Mean</th>
+      <th class="col_heading level0 col0" style="width: 17%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 17%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 17%">Harmonic Mean</th>
     </tr>
     <tr>
       <th class="index_name level0" style="text-align: right;">Model</th>
@@ -358,9 +358,9 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
     <tr>
       <th class="blank" >&nbsp;</th>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 20%">Accuracy</th>
-      <th class="col_heading level0 col1" style="width: 20%">F1 Score</th>
-      <th class="col_heading level0 col2" style="width: 20%">Harmonic Mean</th>
+      <th class="col_heading level0 col0" style="width: 17%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 17%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 17%">Harmonic Mean</th>
     </tr>
     <tr>
       <th class="index_name level0" style="text-align: right;">Tuning Strategy</th>
@@ -496,9 +496,9 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
     <tr>
       <th class="blank" >&nbsp;</th>
       <th class="blank level0" >&nbsp;</th>
-      <th class="col_heading level0 col0" style="width: 20%">Accuracy</th>
-      <th class="col_heading level0 col1" style="width: 20%">F1 Score</th>
-      <th class="col_heading level0 col2" style="width: 20%">Harmonic Mean</th>
+      <th class="col_heading level0 col0" style="width: 17%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 17%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 17%">Harmonic Mean</th>
     </tr>
     <tr>
       <th class="index_name level0" style="text-align: right;">Tuning Strategy</th>
