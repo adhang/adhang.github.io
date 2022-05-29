@@ -216,6 +216,9 @@ I use XGBoost and LightGBM for model development. Below are the metric scores fo
 .lendingclub-table-body th {
   text-align: right;
 }
+#T_0f0b6_ {
+  background-color: #1F2933;
+}
 </style>
 <table id="T_0f0b6_" class="dataframe" style="width: auto">
   <thead>
@@ -351,6 +354,9 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
 }
 .lendingclub-table-body th {
   text-align: right;
+}
+#T_1a46c_ {
+  background-color: #1F2933;
 }
 </style>
 <table id="T_1a46c_" class="dataframe" style="width: auto">
@@ -489,6 +495,9 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
 }
 .lendingclub-table-body th {
   text-align: right;
+}
+#T_ee43b_ {
+  background-color: #1F2933;
 }
 </style>
 <table id="T_ee43b_" class="dataframe" style="width: auto">
