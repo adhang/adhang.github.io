@@ -137,9 +137,9 @@ I do some data preprocessing, such as:
 - Feature transformation (encoding, scaling)
 - Oversampling with SMOTE
 
-## Model Development & Evaluation
+## Model Development
 
-I use XGBoost and LightGBM for model development
+I use XGBoost and LightGBM for model development. Below are the metric scores for the model with the default hyperparameter. For simplicity reason, I only show the accuracy, F1 score, and harmonic mean of accuracy and F1 score.
 <br><br>
 <style type="text/css">
 #T_0f0b6_row0_col0 {
@@ -287,7 +287,8 @@ I use XGBoost and LightGBM for model development
     </tr>
   </tbody>
 </table>
-
+<br><br>
+Overall, the LightGBM model performs better than the XGBoost model. What if we do some tuning for the hyperparameters?
 
 ## Model Optimization
 
@@ -300,7 +301,265 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
 
 ### XGBoost Tuned
 
+<style type="text/css">
+#T_1a46c_row0_col0, #T_1a46c_row2_col0, #T_1a46c_row2_col1, #T_1a46c_row6_col0, #T_1a46c_row6_col1 {
+  background-color: #0a73b2;
+  color: #f1f1f1;
+}
+#T_1a46c_row0_col1 {
+  background-color: #2383ba;
+  color: #f1f1f1;
+}
+#T_1a46c_row0_col2 {
+  background-color: #1c7fb8;
+  color: #f1f1f1;
+}
+#T_1a46c_row1_col0, #T_1a46c_row1_col1, #T_1a46c_row1_col2, #T_1a46c_row4_col0, #T_1a46c_row4_col1, #T_1a46c_row4_col2 {
+  background-color: #023858;
+  color: #f1f1f1;
+}
+#T_1a46c_row2_col2, #T_1a46c_row6_col2 {
+  background-color: #0872b1;
+  color: #f1f1f1;
+}
+#T_1a46c_row3_col0 {
+  background-color: #f7f0f7;
+  color: #000000;
+}
+#T_1a46c_row3_col1, #T_1a46c_row3_col2 {
+  background-color: #f8f1f8;
+  color: #000000;
+}
+#T_1a46c_row5_col0 {
+  background-color: #03466e;
+  color: #f1f1f1;
+}
+#T_1a46c_row5_col1 {
+  background-color: #034165;
+  color: #f1f1f1;
+}
+#T_1a46c_row5_col2 {
+  background-color: #034267;
+  color: #f1f1f1;
+}
+#T_1a46c_row7_col0, #T_1a46c_row7_col1, #T_1a46c_row7_col2 {
+  background-color: #fff7fb;
+  color: #000000;
+}
+#T_1a46c_ th, #T_1a46c_ td {
+  border: none;
+}
+.lendingclub-table-body th {
+  text-align: right;
+}
+</style>
+<table id="T_1a46c_" class="dataframe" style="width: auto">
+  <thead>
+    <tr>
+      <th class="blank" >&nbsp;</th>
+      <th class="blank level0" >&nbsp;</th>
+      <th class="col_heading level0 col0" style="width: 15%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 15%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 15%">Harmonic Mean</th>
+    </tr>
+    <tr>
+      <th class="index_name level0" style="text-align: right;">Tuning Strategy</th>
+      <th class="index_name level1" style="text-align: right;">Feature Selection</th>
+      <th class="blank col0" >&nbsp;</th>
+      <th class="blank col1" >&nbsp;</th>
+      <th class="blank col2" >&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody class="lendingclub-table-body">
+    <tr>
+      <th id="T_1a46c_level0_row0" class="row_heading level0 row0" rowspan="4">Optimize F1 Score</th>
+      <th id="T_1a46c_level1_row0" class="row_heading level1 row0" >Without Feature Selection</th>
+      <td id="T_1a46c_row0_col0" class="data row0 col0" >0.969</td>
+      <td id="T_1a46c_row0_col1" class="data row0 col1" >0.864</td>
+      <td id="T_1a46c_row0_col2" class="data row0 col2" >0.913</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level1_row1" class="row_heading level1 row1" >Feature Selection (75%)</th>
+      <td id="T_1a46c_row1_col0" class="data row1 col0" >0.974</td>
+      <td id="T_1a46c_row1_col1" class="data row1 col1" >0.884</td>
+      <td id="T_1a46c_row1_col2" class="data row1 col2" >0.927</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level1_row2" class="row_heading level1 row2" >Feature Selection (50%)</th>
+      <td id="T_1a46c_row2_col0" class="data row2 col0" >0.969</td>
+      <td id="T_1a46c_row2_col1" class="data row2 col1" >0.868</td>
+      <td id="T_1a46c_row2_col2" class="data row2 col2" >0.916</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level1_row3" class="row_heading level1 row3" >Feature Selection (25%)</th>
+      <td id="T_1a46c_row3_col0" class="data row3 col0" >0.956</td>
+      <td id="T_1a46c_row3_col1" class="data row3 col1" >0.826</td>
+      <td id="T_1a46c_row3_col2" class="data row3 col2" >0.886</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level0_row4" class="row_heading level0 row4" rowspan="4">Optimize Accuracy</th>
+      <th id="T_1a46c_level1_row4" class="row_heading level1 row4" >Without Feature Selection</th>
+      <td id="T_1a46c_row4_col0" class="data row4 col0" >0.974</td>
+      <td id="T_1a46c_row4_col1" class="data row4 col1" >0.884</td>
+      <td id="T_1a46c_row4_col2" class="data row4 col2" >0.927</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level1_row5" class="row_heading level1 row5" >Feature Selection (75%)</th>
+      <td id="T_1a46c_row5_col0" class="data row5 col0" >0.973</td>
+      <td id="T_1a46c_row5_col1" class="data row5 col1" >0.882</td>
+      <td id="T_1a46c_row5_col2" class="data row5 col2" >0.925</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level1_row6" class="row_heading level1 row6" >Feature Selection (50%)</th>
+      <td id="T_1a46c_row6_col0" class="data row6 col0" >0.969</td>
+      <td id="T_1a46c_row6_col1" class="data row6 col1" >0.868</td>
+      <td id="T_1a46c_row6_col2" class="data row6 col2" >0.916</td>
+    </tr>
+    <tr>
+      <th id="T_1a46c_level1_row7" class="row_heading level1 row7" >Feature Selection (25%)</th>
+      <td id="T_1a46c_row7_col0" class="data row7 col0" >0.955</td>
+      <td id="T_1a46c_row7_col1" class="data row7 col1" >0.823</td>
+      <td id="T_1a46c_row7_col2" class="data row7 col2" >0.884</td>
+    </tr>
+  </tbody>
+</table>
+
 ### LightGBM Tuned
+
+<style type="text/css">
+#T_25e82_row0_col0 {
+  background-color: #045f95;
+  color: #f1f1f1;
+}
+#T_25e82_row0_col1, #T_25e82_row1_col1 {
+  background-color: #0568a3;
+  color: #f1f1f1;
+}
+#T_25e82_row0_col2 {
+  background-color: #0566a0;
+  color: #f1f1f1;
+}
+#T_25e82_row1_col0 {
+  background-color: #056dab;
+  color: #f1f1f1;
+}
+#T_25e82_row1_col2 {
+  background-color: #0569a4;
+  color: #f1f1f1;
+}
+#T_25e82_row2_col0 {
+  background-color: #f4edf6;
+  color: #000000;
+}
+#T_25e82_row2_col1 {
+  background-color: #f5eef6;
+  color: #000000;
+}
+#T_25e82_row2_col2 {
+  background-color: #f4eef6;
+  color: #000000;
+}
+#T_25e82_row3_col0, #T_25e82_row3_col1, #T_25e82_row3_col2 {
+  background-color: #fff7fb;
+  color: #000000;
+}
+#T_25e82_row4_col0, #T_25e82_row4_col1, #T_25e82_row4_col2 {
+  background-color: #023858;
+  color: #f1f1f1;
+}
+#T_25e82_row5_col0, #T_25e82_row6_col0, #T_25e82_row7_col0 {
+  background-color: #034c78;
+  color: #f1f1f1;
+}
+#T_25e82_row5_col1, #T_25e82_row6_col1 {
+  background-color: #023d60;
+  color: #f1f1f1;
+}
+#T_25e82_row5_col2, #T_25e82_row6_col2 {
+  background-color: #034165;
+  color: #f1f1f1;
+}
+#T_25e82_row7_col1, #T_25e82_row7_col2 {
+  background-color: #034a74;
+  color: #f1f1f1;
+}
+#T_25e82_ th, #T_25e82_ td {
+  border: none;
+}
+.lendingclub-table-body th {
+  text-align: right;
+}
+</style>
+<table id="T_25e82_" class="dataframe" style="width: auto">
+  <thead>
+    <tr>
+      <th class="blank" >&nbsp;</th>
+      <th class="blank level0" >&nbsp;</th>
+      <th class="col_heading level0 col0" style="width: 15%">Accuracy</th>
+      <th class="col_heading level0 col1" style="width: 15%">F1 Score</th>
+      <th class="col_heading level0 col2" style="width: 15%">Harmonic Mean</th>
+    </tr>
+    <tr>
+      <th class="index_name level0" style="text-align: right;">Tuning Strategy</th>
+      <th class="index_name level1" style="text-align: right;">Feature Selection</th>
+      <th class="blank col0" >&nbsp;</th>
+      <th class="blank col1" >&nbsp;</th>
+      <th class="blank col2" >&nbsp;</th>
+    </tr>
+  </thead>
+  <tbody class="lendingclub-table-body">
+    <tr>
+      <th id="T_25e82_level0_row0" class="row_heading level0 row0" rowspan="4">Optimize F1 Score</th>
+      <th id="T_25e82_level1_row0" class="row_heading level1 row0" >Without Feature Selection</th>
+      <td id="T_25e82_row0_col0" class="data row0 col0" >0.974</td>
+      <td id="T_25e82_row0_col1" class="data row0 col1" >0.883</td>
+      <td id="T_25e82_row0_col2" class="data row0 col2" >0.926</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level1_row1" class="row_heading level1 row1" >Feature Selection (75%)</th>
+      <td id="T_25e82_row1_col0" class="data row1 col0" >0.973</td>
+      <td id="T_25e82_row1_col1" class="data row1 col1" >0.883</td>
+      <td id="T_25e82_row1_col2" class="data row1 col2" >0.926</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level1_row2" class="row_heading level1 row2" >Feature Selection (50%)</th>
+      <td id="T_25e82_row2_col0" class="data row2 col0" >0.964</td>
+      <td id="T_25e82_row2_col1" class="data row2 col1" >0.851</td>
+      <td id="T_25e82_row2_col2" class="data row2 col2" >0.904</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level1_row3" class="row_heading level1 row3" >Feature Selection (25%)</th>
+      <td id="T_25e82_row3_col0" class="data row3 col0" >0.963</td>
+      <td id="T_25e82_row3_col1" class="data row3 col1" >0.848</td>
+      <td id="T_25e82_row3_col2" class="data row3 col2" >0.902</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level0_row4" class="row_heading level0 row4" rowspan="4">Optimize Accuracy</th>
+      <th id="T_25e82_level1_row4" class="row_heading level1 row4" >Without Feature Selection</th>
+      <td id="T_25e82_row4_col0" class="data row4 col0" >0.976</td>
+      <td id="T_25e82_row4_col1" class="data row4 col1" >0.892</td>
+      <td id="T_25e82_row4_col2" class="data row4 col2" >0.932</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level1_row5" class="row_heading level1 row5" >Feature Selection (75%)</th>
+      <td id="T_25e82_row5_col0" class="data row5 col0" >0.975</td>
+      <td id="T_25e82_row5_col1" class="data row5 col1" >0.891</td>
+      <td id="T_25e82_row5_col2" class="data row5 col2" >0.931</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level1_row6" class="row_heading level1 row6" >Feature Selection (50%)</th>
+      <td id="T_25e82_row6_col0" class="data row6 col0" >0.975</td>
+      <td id="T_25e82_row6_col1" class="data row6 col1" >0.891</td>
+      <td id="T_25e82_row6_col2" class="data row6 col2" >0.931</td>
+    </tr>
+    <tr>
+      <th id="T_25e82_level1_row7" class="row_heading level1 row7" >Feature Selection (25%)</th>
+      <td id="T_25e82_row7_col0" class="data row7 col0" >0.975</td>
+      <td id="T_25e82_row7_col1" class="data row7 col1" >0.889</td>
+      <td id="T_25e82_row7_col2" class="data row7 col2" >0.930</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Conclusion
 
