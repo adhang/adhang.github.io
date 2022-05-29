@@ -92,6 +92,10 @@ p, ul, ol, table, pre, dl {
   margin:0 0 10px;
 }
 
+table {
+  border-radius: 5px;  
+}
+
 // horizontal line (--- or ___ in markdown)
 hr {
   border: 0;
