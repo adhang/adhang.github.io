@@ -237,50 +237,50 @@ I use XGBoost and LightGBM for model development. Below are the metric scores fo
   <tbody class="lendingclub-table-body">
     <tr>
       <th id="T_0f0b6_level0_row0" class="row_heading level0 row0" rowspan="4">XGBoost</th>
-      <th id="T_0f0b6_level1_row0" class="row_heading level1 row0" >Without Feature Selection</th>
+      <th id="T_0f0b6_level1_row0" class="row_heading level1 row0" >Using All Features</th>
       <td id="T_0f0b6_row0_col0" class="data row0 col0" >0.950</td>
       <td id="T_0f0b6_row0_col1" class="data row0 col1" >0.809</td>
       <td id="T_0f0b6_row0_col2" class="data row0 col2" >0.874</td>
     </tr>
     <tr>
-      <th id="T_0f0b6_level1_row1" class="row_heading level1 row1" >Feature Selection (75%)</th>
+      <th id="T_0f0b6_level1_row1" class="row_heading level1 row1" >Using 75% Features</th>
       <td id="T_0f0b6_row1_col0" class="data row1 col0" >0.946</td>
       <td id="T_0f0b6_row1_col1" class="data row1 col1" >0.799</td>
       <td id="T_0f0b6_row1_col2" class="data row1 col2" >0.866</td>
     </tr>
     <tr>
-      <th id="T_0f0b6_level1_row2" class="row_heading level1 row2" >Feature Selection (50%)</th>
+      <th id="T_0f0b6_level1_row2" class="row_heading level1 row2" >Using 50% Features</th>
       <td id="T_0f0b6_row2_col0" class="data row2 col0" >0.923</td>
       <td id="T_0f0b6_row2_col1" class="data row2 col1" >0.741</td>
       <td id="T_0f0b6_row2_col2" class="data row2 col2" >0.822</td>
     </tr>
     <tr>
-      <th id="T_0f0b6_level1_row3" class="row_heading level1 row3" >Feature Selection (25%)</th>
+      <th id="T_0f0b6_level1_row3" class="row_heading level1 row3" >Using 25% Features</th>
       <td id="T_0f0b6_row3_col0" class="data row3 col0" >0.902</td>
       <td id="T_0f0b6_row3_col1" class="data row3 col1" >0.695</td>
       <td id="T_0f0b6_row3_col2" class="data row3 col2" >0.785</td>
     </tr>
     <tr>
       <th id="T_0f0b6_level0_row4" class="row_heading level0 row4" rowspan="4">LightGBM</th>
-      <th id="T_0f0b6_level1_row4" class="row_heading level1 row4" >Without Feature Selection</th>
+      <th id="T_0f0b6_level1_row4" class="row_heading level1 row4" >Using All Features</th>
       <td id="T_0f0b6_row4_col0" class="data row4 col0" >0.974</td>
       <td id="T_0f0b6_row4_col1" class="data row4 col1" >0.882</td>
       <td id="T_0f0b6_row4_col2" class="data row4 col2" >0.926</td>
     </tr>
     <tr>
-      <th id="T_0f0b6_level1_row5" class="row_heading level1 row5" >Feature Selection (75%)</th>
+      <th id="T_0f0b6_level1_row5" class="row_heading level1 row5" >Using 75% Features</th>
       <td id="T_0f0b6_row5_col0" class="data row5 col0" >0.973</td>
       <td id="T_0f0b6_row5_col1" class="data row5 col1" >0.882</td>
       <td id="T_0f0b6_row5_col2" class="data row5 col2" >0.925</td>
     </tr>
     <tr>
-      <th id="T_0f0b6_level1_row6" class="row_heading level1 row6" >Feature Selection (50%)</th>
+      <th id="T_0f0b6_level1_row6" class="row_heading level1 row6" >Using 50% Features</th>
       <td id="T_0f0b6_row6_col0" class="data row6 col0" >0.971</td>
       <td id="T_0f0b6_row6_col1" class="data row6 col1" >0.872</td>
       <td id="T_0f0b6_row6_col2" class="data row6 col2" >0.919</td>
     </tr>
     <tr>
-      <th id="T_0f0b6_level1_row7" class="row_heading level1 row7" >Feature Selection (25%)</th>
+      <th id="T_0f0b6_level1_row7" class="row_heading level1 row7" >Using 25% Features</th>
       <td id="T_0f0b6_row7_col0" class="data row7 col0" >0.955</td>
       <td id="T_0f0b6_row7_col1" class="data row7 col1" >0.822</td>
       <td id="T_0f0b6_row7_col2" class="data row7 col2" >0.884</td>
@@ -293,8 +293,8 @@ Overall, the LightGBM model performs better than the XGBoost model. What if we d
 ## Model Optimization
 
 I use Optuna for hyperparameter tuning. My tuning strategy:
-- I don't want to get a high false negative rate, therefore I have to maximize the recall score
-- However, I also don't want to get a high false positive rate, therefore I have to maximize the precision score as well
+- I want to avoid high false negatives, therefore I have to maximize the recall score
+- However, I also want to avoid high false positives, therefore I have to maximize the precision score as well
 - To overcome these conditions, I will optimize the F1 score because it is the harmonic mean of precision and recall
 - I use the F1 score from the negative class because I give more attention to optimizing the metrics for bad loan status
 - I'm still paying attention to the accuracy score as well since this metric is easier to interpret
@@ -373,50 +373,50 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
   <tbody class="lendingclub-table-body">
     <tr>
       <th id="T_1a46c_level0_row0" class="row_heading level0 row0" rowspan="4">Optimize F1 Score</th>
-      <th id="T_1a46c_level1_row0" class="row_heading level1 row0" >Without Feature Selection</th>
+      <th id="T_1a46c_level1_row0" class="row_heading level1 row0" >Using All Features</th>
       <td id="T_1a46c_row0_col0" class="data row0 col0" >0.969</td>
       <td id="T_1a46c_row0_col1" class="data row0 col1" >0.864</td>
       <td id="T_1a46c_row0_col2" class="data row0 col2" >0.913</td>
     </tr>
     <tr>
-      <th id="T_1a46c_level1_row1" class="row_heading level1 row1" >Feature Selection (75%)</th>
+      <th id="T_1a46c_level1_row1" class="row_heading level1 row1" >Using 75% Features</th>
       <td id="T_1a46c_row1_col0" class="data row1 col0" >0.974</td>
       <td id="T_1a46c_row1_col1" class="data row1 col1" >0.884</td>
       <td id="T_1a46c_row1_col2" class="data row1 col2" >0.927</td>
     </tr>
     <tr>
-      <th id="T_1a46c_level1_row2" class="row_heading level1 row2" >Feature Selection (50%)</th>
+      <th id="T_1a46c_level1_row2" class="row_heading level1 row2" >Using 50% Features</th>
       <td id="T_1a46c_row2_col0" class="data row2 col0" >0.969</td>
       <td id="T_1a46c_row2_col1" class="data row2 col1" >0.868</td>
       <td id="T_1a46c_row2_col2" class="data row2 col2" >0.916</td>
     </tr>
     <tr>
-      <th id="T_1a46c_level1_row3" class="row_heading level1 row3" >Feature Selection (25%)</th>
+      <th id="T_1a46c_level1_row3" class="row_heading level1 row3" >Using 25% Features</th>
       <td id="T_1a46c_row3_col0" class="data row3 col0" >0.956</td>
       <td id="T_1a46c_row3_col1" class="data row3 col1" >0.826</td>
       <td id="T_1a46c_row3_col2" class="data row3 col2" >0.886</td>
     </tr>
     <tr>
       <th id="T_1a46c_level0_row4" class="row_heading level0 row4" rowspan="4">Optimize Accuracy</th>
-      <th id="T_1a46c_level1_row4" class="row_heading level1 row4" >Without Feature Selection</th>
+      <th id="T_1a46c_level1_row4" class="row_heading level1 row4" >Using All Features</th>
       <td id="T_1a46c_row4_col0" class="data row4 col0" >0.974</td>
       <td id="T_1a46c_row4_col1" class="data row4 col1" >0.884</td>
       <td id="T_1a46c_row4_col2" class="data row4 col2" >0.927</td>
     </tr>
     <tr>
-      <th id="T_1a46c_level1_row5" class="row_heading level1 row5" >Feature Selection (75%)</th>
+      <th id="T_1a46c_level1_row5" class="row_heading level1 row5" >Using 75% Features</th>
       <td id="T_1a46c_row5_col0" class="data row5 col0" >0.973</td>
       <td id="T_1a46c_row5_col1" class="data row5 col1" >0.882</td>
       <td id="T_1a46c_row5_col2" class="data row5 col2" >0.925</td>
     </tr>
     <tr>
-      <th id="T_1a46c_level1_row6" class="row_heading level1 row6" >Feature Selection (50%)</th>
+      <th id="T_1a46c_level1_row6" class="row_heading level1 row6" >Using 50% Features</th>
       <td id="T_1a46c_row6_col0" class="data row6 col0" >0.969</td>
       <td id="T_1a46c_row6_col1" class="data row6 col1" >0.868</td>
       <td id="T_1a46c_row6_col2" class="data row6 col2" >0.916</td>
     </tr>
     <tr>
-      <th id="T_1a46c_level1_row7" class="row_heading level1 row7" >Feature Selection (25%)</th>
+      <th id="T_1a46c_level1_row7" class="row_heading level1 row7" >Using 25% Features</th>
       <td id="T_1a46c_row7_col0" class="data row7 col0" >0.955</td>
       <td id="T_1a46c_row7_col1" class="data row7 col1" >0.823</td>
       <td id="T_1a46c_row7_col2" class="data row7 col2" >0.884</td>
@@ -511,50 +511,50 @@ I use Optuna for hyperparameter tuning. My tuning strategy:
   <tbody class="lendingclub-table-body">
     <tr>
       <th id="T_ee43b_level0_row0" class="row_heading level0 row0" rowspan="4">Optimize F1 Score</th>
-      <th id="T_ee43b_level1_row0" class="row_heading level1 row0" >Without Feature Selection</th>
+      <th id="T_ee43b_level1_row0" class="row_heading level1 row0" >Using All Features</th>
       <td id="T_ee43b_row0_col0" class="data row0 col0" >0.976</td>
       <td id="T_ee43b_row0_col1" class="data row0 col1" >0.892</td>
       <td id="T_ee43b_row0_col2" class="data row0 col2" >0.932</td>
     </tr>
     <tr>
-      <th id="T_ee43b_level1_row1" class="row_heading level1 row1" >Feature Selection (75%)</th>
+      <th id="T_ee43b_level1_row1" class="row_heading level1 row1" >Using 75% Features</th>
       <td id="T_ee43b_row1_col0" class="data row1 col0" >0.975</td>
       <td id="T_ee43b_row1_col1" class="data row1 col1" >0.891</td>
       <td id="T_ee43b_row1_col2" class="data row1 col2" >0.931</td>
     </tr>
     <tr>
-      <th id="T_ee43b_level1_row2" class="row_heading level1 row2" >Feature Selection (50%)</th>
+      <th id="T_ee43b_level1_row2" class="row_heading level1 row2" >Using 50% Features</th>
       <td id="T_ee43b_row2_col0" class="data row2 col0" >0.974</td>
       <td id="T_ee43b_row2_col1" class="data row2 col1" >0.883</td>
       <td id="T_ee43b_row2_col2" class="data row2 col2" >0.926</td>
     </tr>
     <tr>
-      <th id="T_ee43b_level1_row3" class="row_heading level1 row3" >Feature Selection (25%)</th>
+      <th id="T_ee43b_level1_row3" class="row_heading level1 row3" >Using 25% Features</th>
       <td id="T_ee43b_row3_col0" class="data row3 col0" >0.964</td>
       <td id="T_ee43b_row3_col1" class="data row3 col1" >0.851</td>
       <td id="T_ee43b_row3_col2" class="data row3 col2" >0.904</td>
     </tr>
     <tr>
       <th id="T_ee43b_level0_row4" class="row_heading level0 row4" rowspan="4">Optimize Accuracy</th>
-      <th id="T_ee43b_level1_row4" class="row_heading level1 row4" >Without Feature Selection</th>
+      <th id="T_ee43b_level1_row4" class="row_heading level1 row4" >Using All Features</th>
       <td id="T_ee43b_row4_col0" class="data row4 col0" >0.975</td>
       <td id="T_ee43b_row4_col1" class="data row4 col1" >0.891</td>
       <td id="T_ee43b_row4_col2" class="data row4 col2" >0.931</td>
     </tr>
     <tr>
-      <th id="T_ee43b_level1_row5" class="row_heading level1 row5" >Feature Selection (75%)</th>
+      <th id="T_ee43b_level1_row5" class="row_heading level1 row5" >Using 75% Features</th>
       <td id="T_ee43b_row5_col0" class="data row5 col0" >0.975</td>
       <td id="T_ee43b_row5_col1" class="data row5 col1" >0.889</td>
       <td id="T_ee43b_row5_col2" class="data row5 col2" >0.930</td>
     </tr>
     <tr>
-      <th id="T_ee43b_level1_row6" class="row_heading level1 row6" >Feature Selection (50%)</th>
+      <th id="T_ee43b_level1_row6" class="row_heading level1 row6" >Using 50% Features</th>
       <td id="T_ee43b_row6_col0" class="data row6 col0" >0.973</td>
       <td id="T_ee43b_row6_col1" class="data row6 col1" >0.883</td>
       <td id="T_ee43b_row6_col2" class="data row6 col2" >0.926</td>
     </tr>
     <tr>
-      <th id="T_ee43b_level1_row7" class="row_heading level1 row7" >Feature Selection (25%)</th>
+      <th id="T_ee43b_level1_row7" class="row_heading level1 row7" >Using 25% Features</th>
       <td id="T_ee43b_row7_col0" class="data row7 col0" >0.963</td>
       <td id="T_ee43b_row7_col1" class="data row7 col1" >0.848</td>
       <td id="T_ee43b_row7_col2" class="data row7 col2" >0.902</td>
