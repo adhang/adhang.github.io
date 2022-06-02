@@ -14,6 +14,7 @@ lendingclub-loan-credit-risk&show_owner=true&title_color=00875A&icon_color=00664
 I create separated notebooks due to my limited computing resources
 - [Exploratory Data Analysis](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_EDA.ipynb)
 - [Machine Learning Modeling](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_Modeling_Clean.ipynb)
+- Download project infographic [here](https://adhang.github.io/pages/project-lendingclub-loan-credit-risk/project-infographic.pdf)
 
 ## Dataset & Business Understanding
 
