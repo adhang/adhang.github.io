@@ -456,6 +456,7 @@ LightGBM using 75% features and get:
   - Earlier issue date
   - High interest rate
 - Evaluate and do some adjustment to the interest rate. Maybe we can adjust the interest rate based on borrowers' default risk probability.
+- Use targeted ads for potential new borrowers based on their needs and occupations
 
 ## Explainable AI
 
