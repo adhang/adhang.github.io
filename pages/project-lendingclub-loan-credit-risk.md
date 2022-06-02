@@ -3,10 +3,8 @@
 This is my internship project as a data scientist at [id/x partners](https://idxpartners.com/)
 <br><br>
 
-In this project, I designed a predictive model to determine the probability that loan borrowers will have a good or bad (risky) loan status at a lending company and achieve an **accuracy score of 98%**.
+In this project, I designed a predictive model to determine the probability of a borrower's default risk in a lending company and achieved a **98% accuracy score**.
 <br><br>
-
-Note: This project is still on-going, will update later.
 
 ## Project Notebooks
 
@@ -15,7 +13,7 @@ lendingclub-loan-credit-risk&show_owner=true&title_color=00875A&icon_color=00664
 
 I create separated notebooks due to my limited computing resources
 - [Exploratory Data Analysis](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_EDA.ipynb)
-- [Machine Learning Modeling](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_Modeling.ipynb)
+- [Machine Learning Modeling](https://github.com/adhang/lendingclub-loan-credit-risk/blob/main/LendingClub_Loan_Credit_Risk_Modeling_Clean.ipynb)
 
 ## Dataset & Business Understanding
 
@@ -447,4 +445,22 @@ I use Optuna for hyperparameter tuning. My tuning strategy follows business goal
 
 ## Conclusion
 
+**Final Model** <br>
+LightGBM using 75% features and get:
+- Accuracy: 98%
+- F1 Score: 89%
+<br><br>
+
+**Recommendation and Request** <br>
+- We should pay more attention to borrowers who meet the criteria below
+  - Earlier issue date
+  - High interest rate
+- Evaluate and do some adjustment to the interest rate. Maybe we can adjust the interest rate based on borrowers' default risk probability.
+
 ## Explainable AI
+
+SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model.
+<br><br>
+See [papers](https://github.com/slundberg/shap#citations) for details and citations.
+<br><br>
+<img class="img-modal-src" src="project-lendingclub-loan-credit-risk/shap-multiple-decision-plot.svg" alt="SHAP Multiple Decision Plot">
