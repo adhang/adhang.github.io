@@ -7,7 +7,7 @@
 - I'm a quick learner, detail-oriented, and able to communicate technical matters in a simple way. 
 - I have certification from Huawei in artificial intelligence and I’m interested in a career as a data scientist.
 
-[Download Curriculum Vitae](https://adhang.github.io/uploads/CV_Adhang_May_2022.pdf)
+[Download Curriculum Vitae](https://adhang.github.io/uploads/CV_Adhang_June_2022.pdf)
 
 ---
 
