@@ -87,7 +87,7 @@ The `Good` status is when the loan status is either `Current` or `Fully Paid`, o
 
 <img class="img-modal-src" src="project-lendingclub-loan-credit-risk/grade-probability.svg" alt="Loan Status Probability by Grade">
 
-- The grade feature has a natural order based on the loan status probability
+- This feature seems to have a natural order based on the loan status probability
 - Grade A has the highest probability to have a good loan status.
 - Grade G has the lowest probability to have a good loan status
 
