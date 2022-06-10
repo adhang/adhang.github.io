@@ -6,7 +6,7 @@ In working on this project, I used a workflow based on the CRISP-DM model, start
 
 ## Project Notebook & Presentation
 
-- Detailed project notebook on my [GitHub](https://github.com/adhang/data-science-digital-skola) or [Kaggle](https://www.kaggle.com/code/adhang/telco-customer-churn-prediction-complete-guide)
+- Detailed project notebook on my [GitHub](https://github.com/adhang/telco-customer-churn-prediction/blob/main/notebooks/Telco_Customer_Churn_Prediction.ipynb) or [Kaggle](https://www.kaggle.com/code/adhang/telco-customer-churn-prediction-complete-guide)
 - Download project presentation [here](https://adhang.github.io/pages/project-telco-customer-churn/project-presentation.pdf)
 - Deployment repo [here](https://github.com/adhang/telco-customer-churn-prediction)
 
