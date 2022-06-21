@@ -25,6 +25,8 @@
 
 ### [Learn Data Science](https://adhang.github.io/pages/github-learn-data-science)
 
+### [Learn Machine Learning with TensorFlow](https://adhang.github.io/pages/github-learn-tensorflow)
+
 ---
 ## Data Science Projects
 ---
