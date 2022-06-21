@@ -1,6 +1,8 @@
 # Learn Machine Learning with TensorFlow
 
 **Contents**
+- [CNN - MNIST Fashion](https://github.com/adhang/learn-tensorflow/blob/main/CNN_MNIST_Fashion.ipynb)
+- [CNN - Horse or Human?](https://github.com/adhang/learn-tensorflow/blob/main/CNN_Horse_or_Human.ipynb)
 - [CNN - Carelessness in Driving a Car](https://github.com/adhang/learn-tensorflow/blob/main/CNN_Carelessness_in_Driving_(InceptionV3).ipynb)
 - [NLP - Sarcasm News](https://github.com/adhang/learn-tensorflow/blob/main/NLP_Sarcasm_News.ipynb)
 
