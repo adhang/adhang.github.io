@@ -12,5 +12,6 @@
   - [Using Subwords Tokenization](https://github.com/adhang/learn-tensorflow/blob/main/NLP_IMDB_Reviews_(Subwords).ipynb)
   - [Using LSTM, GRU, and Conv1D](https://github.com/adhang/learn-tensorflow/blob/main/NLP_IMBD_Reviews_(LSTM_GRU_Conv1D).ipynb)
 - [NLP - Emotion Detection](https://github.com/adhang/learn-tensorflow/blob/main/NLP_Emotion_Detection.ipynb)
+- [Time Series Forecasting - Google Stock Price](https://github.com/adhang/learn-tensorflow/blob/main/Time_Series_Google_Stock_Price.ipynb)
 
 [![Repo Card](https://github-readme-stats.vercel.app/api/pin/?username=adhang&repo=learn-tensorflow&show_owner=true&title_color=00875A&icon_color=006644&text_color=1B262C&bg_color=F5F7FA)](https://github.com/adhang/learn-tensorflow)
